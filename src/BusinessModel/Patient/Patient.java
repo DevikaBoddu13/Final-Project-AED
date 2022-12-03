@@ -33,7 +33,7 @@ public class Patient {
     private String patient_InsuranceStatus;
     private String patient_LabStatus;
     private String patient_PharmaStatus;
-    private String pBloodBankStatus;
+    private String patient_BloodBankStatus;
     private String patient_PoliceStatus;
     private boolean patient_MedicalConsentform;
     private ArrayList<PatientBills> patient_bills;
@@ -207,12 +207,12 @@ public class Patient {
         this.patient_PharmaStatus = patient_PharmaStatus;
     }
 
-    public String getpBloodBankStatus() {
-        return pBloodBankStatus;
+    public String getpatient_BloodBankStatus() {
+        return patient_BloodBankStatus;
     }
 
-    public void setpBloodBankStatus(String pBloodBankStatus) {
-        this.pBloodBankStatus = pBloodBankStatus;
+    public void setpatient_BloodBankStatus(String patient_BloodBankStatus) {
+        this.patient_BloodBankStatus = patient_BloodBankStatus;
     }
 
     public String getpatient_PoliceStatus() {
