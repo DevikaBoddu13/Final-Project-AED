@@ -10,7 +10,7 @@ import java.util.Date;
 
 /**
  *
- * @author siddh
+ * @author podda
  */
 public class Doctor {
     
