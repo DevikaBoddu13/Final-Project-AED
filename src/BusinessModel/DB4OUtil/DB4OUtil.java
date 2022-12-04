@@ -6,16 +6,12 @@ package BusinessModel.DB4OUtil;
 
 /**
  *
- * @author siddh
+ * @author podda
  */
 
 import BusinessModel.SystemConfiguration;
 import BusinessModel.Ecosystem;
-import com.db4o.Db4oEmbedded;
-import com.db4o.ObjectContainer;
-import com.db4o.ObjectSet;
-import com.db4o.config.EmbeddedConfiguration;
-import com.db4o.ta.TransparentPersistenceSupport;
+import com.db4o.*;
 import java.nio.file.Paths;
 
 public class DB4OUtil {
