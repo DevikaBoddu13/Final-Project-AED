@@ -207,9 +207,8 @@ public class DoctorRequestMedicineJPanel extends javax.swing.JPanel {
         });
         add(btnAddMedicine1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 340, 260, 30));
 
-        Request.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
+        Request.setFont(new java.awt.Font("Arial Black", 1, 16)); // NOI18N
         Request.setForeground(new java.awt.Color(202, 97, 71));
-        Request.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-request-40.png"))); // NOI18N
         Request.setText("Request Dispensary");
         Request.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
