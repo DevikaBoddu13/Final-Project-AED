@@ -324,8 +324,6 @@ public class DisplayPatientInfoJPanel extends javax.swing.JPanel {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Doctors Unoccupied");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 390, 310, -1));
-
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-patient-50.png"))); // NOI18N
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 23, 50, 50));
     }// </editor-fold>//GEN-END:initComponents
 

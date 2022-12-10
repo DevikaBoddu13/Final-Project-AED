@@ -149,7 +149,6 @@ public class DoctorAdminWorkArea extends javax.swing.JPanel {
 
         btnCreateDoctor.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         btnCreateDoctor.setForeground(new java.awt.Color(202, 97, 71));
-        btnCreateDoctor.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-create-40.png"))); // NOI18N
         btnCreateDoctor.setText("Create");
         btnCreateDoctor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -160,7 +159,6 @@ public class DoctorAdminWorkArea extends javax.swing.JPanel {
 
         upBtn.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         upBtn.setForeground(new java.awt.Color(202, 97, 71));
-        upBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-update-40.png"))); // NOI18N
         upBtn.setText("Update");
         upBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -171,7 +169,6 @@ public class DoctorAdminWorkArea extends javax.swing.JPanel {
 
         dBtn4.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         dBtn4.setForeground(new java.awt.Color(202, 97, 71));
-        dBtn4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-remove-40.png"))); // NOI18N
         dBtn4.setText("Delete");
         dBtn4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

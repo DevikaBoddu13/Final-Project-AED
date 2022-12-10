@@ -60,61 +60,58 @@ public class MainJFrame extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        leftContainer.setBackground(new java.awt.Color(0, 153, 204));
+        leftContainer.setBackground(new java.awt.Color(225, 236, 253));
         leftContainer.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        signInBtn.setFont(new java.awt.Font("Microsoft JhengHei", 1, 18)); // NOI18N
-        signInBtn.setForeground(new java.awt.Color(0, 153, 204));
-        signInBtn.setText("Sign-in");
+        signInBtn.setFont(new java.awt.Font("Arial", 3, 14)); // NOI18N
+        signInBtn.setForeground(new java.awt.Color(202, 97, 71));
+        signInBtn.setText("Login");
         signInBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 signInBtnActionPerformed(evt);
             }
         });
-        leftContainer.add(signInBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 480, 120, 35));
+        leftContainer.add(signInBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 480, 100, 35));
 
         userNameInputField.setFont(new java.awt.Font("Noto Sans Kannada", 2, 14)); // NOI18N
+        userNameInputField.setToolTipText("");
         userNameInputField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 userNameInputFieldActionPerformed(evt);
             }
         });
-        leftContainer.add(userNameInputField, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 320, 118, 35));
+        leftContainer.add(userNameInputField, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 320, 100, 35));
 
         passwordInputField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 passwordInputFieldActionPerformed(evt);
             }
         });
-        leftContainer.add(passwordInputField, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 410, 118, 35));
+        leftContainer.add(passwordInputField, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 410, 100, 35));
 
-        jLabel1.setFont(new java.awt.Font("Microsoft JhengHei", 1, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setFont(new java.awt.Font("Arial Black", 1, 16)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(60, 143, 125));
         jLabel1.setText("Username");
-        leftContainer.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 290, -1, -1));
+        leftContainer.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 290, 100, -1));
 
         jLabel2.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel2.setFont(new java.awt.Font("Microsoft JhengHei", 1, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel2.setFont(new java.awt.Font("Arial Black", 1, 16)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(60, 143, 125));
         jLabel2.setText("Password");
-        leftContainer.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 380, 108, -1));
+        leftContainer.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 380, 100, -1));
         leftContainer.add(loginJLabel, new org.netbeans.lib.awtextra.AbsoluteConstraints(128, 231, -1, -1));
 
-        signOutBtn.setFont(new java.awt.Font("Microsoft JhengHei", 1, 18)); // NOI18N
-        signOutBtn.setForeground(new java.awt.Color(0, 153, 204));
-        signOutBtn.setText("Sign-out");
+        signOutBtn.setFont(new java.awt.Font("Arial Black", 3, 14)); // NOI18N
+        signOutBtn.setForeground(new java.awt.Color(202, 97, 71));
+        signOutBtn.setText("LogOut");
         signOutBtn.setEnabled(false);
         signOutBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 signOutBtnActionPerformed(evt);
             }
         });
-        leftContainer.add(signOutBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 540, 120, 35));
-
-        appLogo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/hospital-logo.png"))); // NOI18N
+        leftContainer.add(signOutBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 520, 100, 35));
         leftContainer.add(appLogo, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 70, 130, 130));
-
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/icons8-user-40.png"))); // NOI18N
         leftContainer.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 250, 50, 40));
 
         jSplitPane1.setLeftComponent(leftContainer);
@@ -122,9 +119,9 @@ public class MainJFrame extends javax.swing.JFrame {
         mainContainer.setBackground(new java.awt.Color(255, 255, 255));
         mainContainer.setLayout(new java.awt.CardLayout());
 
-        homeDisplay.setBackground(new java.awt.Color(0, 153, 204));
+        homeDisplay.setBackground(new java.awt.Color(255, 255, 255));
         homeDisplay.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        homeDisplay.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/Hospital.gif"))); // NOI18N
+        homeDisplay.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/hospital_1295x950.jpg"))); // NOI18N
         mainContainer.add(homeDisplay, "card2");
 
         jSplitPane1.setRightComponent(mainContainer);
