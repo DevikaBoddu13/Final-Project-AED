@@ -104,8 +104,6 @@ public class BloodBankWorkAreaJPanel extends javax.swing.JPanel {
         btnTreatedPatientList = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
-        jLabel1 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 102, 102));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -239,12 +237,6 @@ public class BloodBankWorkAreaJPanel extends javax.swing.JPanel {
         jLabel2.setText("BLOOD BANK");
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 10, 300, 80));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, 1280, 10));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-drop-of-blood-48.png"))); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 20, 50, 60));
-
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-paid-bill-50.png"))); // NOI18N
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 390, 60, 50));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnBloodBankInfoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBloodBankInfoActionPerformed
@@ -312,9 +304,7 @@ public class BloodBankWorkAreaJPanel extends javax.swing.JPanel {
     private javax.swing.JButton btnBloodBankInfo;
     private javax.swing.JButton btnProcessRequest;
     private javax.swing.JButton btnTreatedPatientList;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JSeparator jSeparator1;
