@@ -129,7 +129,6 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
         btnSubmit1 = new javax.swing.JButton();
         lblPaymentMethod1 = new javax.swing.JLabel();
         txtDOB = new com.toedter.calendar.JDateChooser();
-        jLabel4 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(51, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -465,14 +464,13 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
 
         btnSubmit1.setFont(new java.awt.Font("Microsoft JhengHei", 1, 18)); // NOI18N
         btnSubmit1.setForeground(new java.awt.Color(51, 51, 51));
-        btnSubmit1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-back-arrow-40.png"))); // NOI18N
-        btnSubmit1.setText("Back");
+        btnSubmit1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/back.png"))); // NOI18N
         btnSubmit1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSubmit1ActionPerformed(evt);
             }
         });
-        add(btnSubmit1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 30, 120, 46));
+        add(btnSubmit1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 30, 80, 46));
 
         lblPaymentMethod1.setBackground(new java.awt.Color(255, 255, 255));
         lblPaymentMethod1.setFont(new java.awt.Font("Microsoft JhengHei", 1, 18)); // NOI18N
@@ -484,9 +482,6 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
         txtDOB.setDateFormatString("MM-dd-yyyy");
         txtDOB.setMaxSelectableDate(new Date());
         add(txtDOB, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 350, 140, 30));
-
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-patient-50.png"))); // NOI18N
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 30, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtLastNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtLastNameActionPerformed
@@ -787,7 +782,6 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
     private javax.swing.JRadioButton jRadioCash;
     private javax.swing.JRadioButton jRadioInsurance;
     private javax.swing.JSeparator jSeparator2;

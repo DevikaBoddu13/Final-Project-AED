@@ -81,7 +81,7 @@ private void populatePatientTable1() {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Insurer");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-500, 50, 1400, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 50, 800, -1));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 126, 1400, 10));
 
         patientTable.getTableHeader().setFont(new java.awt.Font("Trebuchet MS", 1, 16));

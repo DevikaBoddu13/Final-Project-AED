@@ -98,8 +98,8 @@ public class PoliceWorkAreaJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(51, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/police_100x100.png"))); // NOI18N
-        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 90, 130, 120));
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/icons8-police-64.png"))); // NOI18N
+        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 80, 100, 110));
 
         jLabel1.setFont(new java.awt.Font("Georgia", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));

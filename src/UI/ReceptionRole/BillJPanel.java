@@ -71,8 +71,6 @@ public class BillJPanel extends javax.swing.JPanel {
         textBill = new javax.swing.JLabel();
         totalAmounttxt = new javax.swing.JTextField();
         jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(51, 51, 51));
         setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -125,7 +123,7 @@ public class BillJPanel extends javax.swing.JPanel {
 
         bckBtn.setFont(new java.awt.Font("Microsoft JhengHei", 1, 18)); // NOI18N
         bckBtn.setForeground(new java.awt.Color(51, 51, 51));
-        bckBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-back-arrow-40.png"))); // NOI18N
+        bckBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/back.png"))); // NOI18N
         bckBtn.setText(" Back");
         bckBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -148,12 +146,6 @@ public class BillJPanel extends javax.swing.JPanel {
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("View Bill");
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 50, 180, -1));
-
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-user-40.png"))); // NOI18N
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 190, -1, 50));
-
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-paid-bill-50.png"))); // NOI18N
-        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 53, 60, 50));
     }// </editor-fold>//GEN-END:initComponents
 
     private void bckBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bckBtnActionPerformed
@@ -170,8 +162,6 @@ public class BillJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JLabel lblPatientName;

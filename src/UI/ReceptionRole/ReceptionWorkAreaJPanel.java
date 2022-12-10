@@ -15,7 +15,7 @@ import javax.swing.JPanel;
 import javax.swing.table.DefaultTableModel;
 import UI.Ambulance.AmbulanceWorkAreaJPanel;
 
-//import MainUserInterface.Patient.PatientBillJPanel;
+//import UI.Patient.PatientBillJPanel;
 
 
 /**
@@ -95,7 +95,6 @@ public class ReceptionWorkAreaJPanel extends javax.swing.JPanel {
         createPatBtn.setBackground(new java.awt.Color(51, 51, 51));
         createPatBtn.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
         createPatBtn.setForeground(new java.awt.Color(255, 255, 255));
-        createPatBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-create-40.png"))); // NOI18N
         createPatBtn.setText("Create New Patient");
         createPatBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -109,7 +108,7 @@ public class ReceptionWorkAreaJPanel extends javax.swing.JPanel {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Hospital ");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(520, 40, 160, 80));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 50, 160, 80));
 
         patientTable.setBackground(new java.awt.Color(51, 51, 51));
         patientTable.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -153,7 +152,6 @@ public class ReceptionWorkAreaJPanel extends javax.swing.JPanel {
         billPatBtn.setBackground(new java.awt.Color(51, 51, 51));
         billPatBtn.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
         billPatBtn.setForeground(new java.awt.Color(255, 255, 255));
-        billPatBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-request-40.png"))); // NOI18N
         billPatBtn.setText("Bill the Patient");
         billPatBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -165,7 +163,6 @@ public class ReceptionWorkAreaJPanel extends javax.swing.JPanel {
         delBtn.setBackground(new java.awt.Color(51, 51, 51));
         delBtn.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
         delBtn.setForeground(new java.awt.Color(255, 255, 255));
-        delBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-remove-40.png"))); // NOI18N
         delBtn.setText("Delete Patient");
         delBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -177,7 +174,6 @@ public class ReceptionWorkAreaJPanel extends javax.swing.JPanel {
         updateAmbulRecBtn.setBackground(new java.awt.Color(51, 51, 51));
         updateAmbulRecBtn.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
         updateAmbulRecBtn.setForeground(new java.awt.Color(255, 255, 255));
-        updateAmbulRecBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-ambulance-50.png"))); // NOI18N
         updateAmbulRecBtn.setText("Ambulance Record");
         updateAmbulRecBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -189,7 +185,6 @@ public class ReceptionWorkAreaJPanel extends javax.swing.JPanel {
         btnUpdate1.setBackground(new java.awt.Color(51, 51, 51));
         btnUpdate1.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
         btnUpdate1.setForeground(new java.awt.Color(255, 255, 255));
-        btnUpdate1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-update-40.png"))); // NOI18N
         btnUpdate1.setText("Update Patient");
         btnUpdate1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -201,7 +196,6 @@ public class ReceptionWorkAreaJPanel extends javax.swing.JPanel {
         jButton2.setBackground(new java.awt.Color(51, 51, 51));
         jButton2.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-walk-40.png"))); // NOI18N
         jButton2.setText("Discharged Patients");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -226,7 +220,6 @@ public class ReceptionWorkAreaJPanel extends javax.swing.JPanel {
         jButton1.setBackground(new java.awt.Color(51, 51, 51));
         jButton1.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-walk-40.png"))); // NOI18N
         jButton1.setText("Discharge a Patient");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -258,11 +251,11 @@ public class ReceptionWorkAreaJPanel extends javax.swing.JPanel {
 
         add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 10, 280, 810));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-hospital-50.png"))); // NOI18N
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 50, -1, -1));
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/icons8-hospital-48.png"))); // NOI18N
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 60, 50, 50));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-patient-50 (1).png"))); // NOI18N
-        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, -1, -1));
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/icons8-patient-care-50.png"))); // NOI18N
+        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 130, 50, 40));
     }// </editor-fold>//GEN-END:initComponents
 
     private void createPatBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_createPatBtnActionPerformed
