@@ -431,13 +431,13 @@ public class DisplayPatientInfoJPanel extends javax.swing.JPanel {
         txtAddress.setText(patient.getpatient_Address());
         txtPhoneNumber.setText(patient.getpatient_MobNum());
         txtEmail.setText(patient.getpatient_EmailAddress());
-        if(patient.getPdob()!= null)
+        if(patient.getpatient_Dob()!= null)
         {
-            txtDateOfBirth.setText(new SimpleDateFormat("MM-dd-yyyy").format(patient.getPdob()));
+            txtDateOfBirth.setText(new SimpleDateFormat("MM-dd-yyyy").format(patient.getpatient_Dob()));
         }
         if(patient.getpatient_AdmitDate()!= null)
         {
-            txtDateOfAdmit.setText(new SimpleDateFormat("MM-dd-yyyy").format(patient.getPdob()));
+            txtDateOfAdmit.setText(new SimpleDateFormat("MM-dd-yyyy").format(patient.getpatient_Dob()));
         }
         
         txtInjuryType.setText(patient.getpatient_TypeOfInjury());
