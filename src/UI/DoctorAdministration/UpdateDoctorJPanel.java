@@ -254,9 +254,8 @@ public class UpdateDoctorJPanel extends javax.swing.JPanel {
         jLabel2.setText("Username");
         jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 170, 115, 33));
 
-        btnSubmit.setFont(new java.awt.Font("Microsoft JhengHei", 1, 18)); // NOI18N
-        btnSubmit.setForeground(new java.awt.Color(0, 153, 204));
-        btnSubmit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-update-40.png"))); // NOI18N
+        btnSubmit.setFont(new java.awt.Font("Arial Black", 1, 16)); // NOI18N
+        btnSubmit.setForeground(new java.awt.Color(202, 97, 71));
         btnSubmit.setText("Update");
         btnSubmit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
