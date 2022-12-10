@@ -138,7 +138,6 @@ public class UpdatePatientJPanel extends javax.swing.JPanel {
         lblErrorAccidentLocation = new javax.swing.JLabel();
         jSeparator1 = new javax.swing.JSeparator();
         btnSubmit1 = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(51, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -154,7 +153,7 @@ public class UpdatePatientJPanel extends javax.swing.JPanel {
         lblUpdatePatient.setForeground(new java.awt.Color(255, 255, 255));
         lblUpdatePatient.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblUpdatePatient.setText("Update Patient Details");
-        add(lblUpdatePatient, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 20, 280, 50));
+        add(lblUpdatePatient, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 20, 280, 50));
 
         txtFirstName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -431,17 +430,13 @@ public class UpdatePatientJPanel extends javax.swing.JPanel {
 
         btnSubmit1.setFont(new java.awt.Font("Trebuchet MS", 1, 18)); // NOI18N
         btnSubmit1.setForeground(new java.awt.Color(51, 51, 51));
-        btnSubmit1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-back-arrow-40.png"))); // NOI18N
-        btnSubmit1.setText("Back");
+        btnSubmit1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/back.png"))); // NOI18N
         btnSubmit1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSubmit1ActionPerformed(evt);
             }
         });
-        add(btnSubmit1, new org.netbeans.lib.awtextra.AbsoluteConstraints(1040, 30, 159, 46));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-patient-50.png"))); // NOI18N
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 23, 60, 50));
+        add(btnSubmit1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 30, 70, 46));
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtLastNameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtLastNameActionPerformed
@@ -680,7 +675,6 @@ public class UpdatePatientJPanel extends javax.swing.JPanel {
     private javax.swing.JButton btnBrowse;
     private javax.swing.JButton btnSubmit;
     private javax.swing.JButton btnSubmit1;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JRadioButton jRadioCash;
     private javax.swing.JRadioButton jRadioInsurance;
     private javax.swing.JSeparator jSeparator1;
