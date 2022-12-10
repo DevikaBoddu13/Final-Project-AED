@@ -159,7 +159,7 @@ public class PersonInfo extends javax.swing.JPanel {
                 txtAgeActionPerformed(evt);
             }
         });
-        add(txtAge, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 180, 165, 30));
+        add(txtAge, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 180, 165, 30));
 
         lblPatientAge.setBackground(new java.awt.Color(255, 255, 255));
         lblPatientAge.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
@@ -184,35 +184,33 @@ public class PersonInfo extends javax.swing.JPanel {
         jButton1.setBackground(new java.awt.Color(0, 204, 102));
         jButton1.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(255, 255, 255));
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-approve-40 (1).png"))); // NOI18N
         jButton1.setText("Approve");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 360, 196, 47));
+        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 310, 196, 47));
 
         jButton2.setBackground(new java.awt.Color(255, 51, 51));
         jButton2.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
         jButton2.setForeground(new java.awt.Color(255, 255, 255));
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-reject-40.png"))); // NOI18N
         jButton2.setText("Reject");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 360, 196, 47));
+        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 310, 196, 47));
 
         txtPoliceVerification.setEditable(false);
-        add(txtPoliceVerification, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 280, 171, 41));
+        add(txtPoliceVerification, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 240, 171, 41));
 
         lblPatientPhone1.setBackground(new java.awt.Color(255, 255, 255));
         lblPatientPhone1.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
         lblPatientPhone1.setForeground(new java.awt.Color(255, 255, 255));
         lblPatientPhone1.setText("Police Verification");
-        add(lblPatientPhone1, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 280, -1, 31));
+        add(lblPatientPhone1, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 250, -1, 31));
 
         lblPatientHealthInsuranceID1.setBackground(new java.awt.Color(255, 255, 255));
         lblPatientHealthInsuranceID1.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
