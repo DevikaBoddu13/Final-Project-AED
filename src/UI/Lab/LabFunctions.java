@@ -204,16 +204,17 @@ public class LabFunctions extends javax.swing.JPanel {
         add(conBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(1170, 280, 160, 40));
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1150, 490, 120, 32));
 
+        jButton2.setBackground(new java.awt.Color(0, 153, 153));
         jButton2.setFont(new java.awt.Font("Microsoft JhengHei", 1, 18)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(0, 153, 204));
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-back-arrow-40.png"))); // NOI18N
-        jButton2.setText("Back");
+        jButton2.setForeground(new java.awt.Color(0, 153, 153));
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/back.png"))); // NOI18N
+        jButton2.setBorder(null);
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1020, 20, 120, 40));
+        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 20, 120, 40));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/lab.png"))); // NOI18N
         jLabel3.setText("jLabel3");

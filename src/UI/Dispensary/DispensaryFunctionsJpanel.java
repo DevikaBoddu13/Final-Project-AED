@@ -229,7 +229,7 @@ public class DispensaryFunctionsJpanel extends javax.swing.JPanel {
                 jButton2ActionPerformed(evt);
             }
         });
-        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 130, 50));
+        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 70, 50));
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/dispensary.png"))); // NOI18N
         jLabel5.setMaximumSize(new java.awt.Dimension(100, 100));
