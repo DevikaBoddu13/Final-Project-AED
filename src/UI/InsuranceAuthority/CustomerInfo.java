@@ -125,7 +125,7 @@ public class CustomerInfo extends javax.swing.JPanel {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Customer Information");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-460, 20, 1382, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 20, 540, -1));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 1392, 10));
 
         table1.getTableHeader().setFont(new java.awt.Font("Trebuchet MS", 1, 16));
@@ -308,15 +308,17 @@ public class CustomerInfo extends javax.swing.JPanel {
         lblpVerification.setText("Police Verification");
         add(lblpVerification, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 460, 156, -1));
 
+        backBtn.setBackground(new java.awt.Color(0, 102, 102));
         backBtn.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
         backBtn.setForeground(new java.awt.Color(0, 153, 204));
-        backBtn.setText("Back");
+        backBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/back.png"))); // NOI18N
+        backBtn.setBorder(null);
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 20, 190, 50));
+        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 70, 50));
 
         jLabel4.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 51, 51));
