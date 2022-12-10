@@ -307,7 +307,7 @@ public class PatientWorkSpaceJPanel extends javax.swing.JPanel {
                 txtAddress.setText(patient.getpatient_Address());
                 txtPhoneNumber.setText(patient.getpatient_MobNum());
                 txtEmail.setText(patient.getpatient_EmailAddress());
-                txtDateOfBirth.setText(new SimpleDateFormat("MM-dd-yyyy").format(patient.getPdob()));
+                txtDateOfBirth.setText(new SimpleDateFormat("MM-dd-yyyy").format(patient.getpatient_Dob()));
                 txtDateOfAdmit.setText(new SimpleDateFormat("MM-dd-yyyy").format(patient.getpatient_AdmitDate()));
                 txtInjuryType.setText(patient.getpatient_TypeOfInjury());
                 txtBloodGroup.setText(patient.getpatient_BloodType());

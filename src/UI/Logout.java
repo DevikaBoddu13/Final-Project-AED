@@ -5,7 +5,7 @@
 package UI;
 
 
-import MainUserInterface.Police.PersonInfo;
+import UI.Police.PersonInfo;
 
 import BusinessModel.Ecosystem;
 import BusinessModel.Patient.PatientBills;
