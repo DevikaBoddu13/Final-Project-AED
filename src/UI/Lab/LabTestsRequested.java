@@ -15,7 +15,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author kshama
+ * @author sahil
  */
 public class LabTestsRequested extends javax.swing.JPanel {
 
@@ -78,14 +78,15 @@ public class LabTestsRequested extends javax.swing.JPanel {
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel1.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Microsoft JhengHei", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Patient Request");
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 30, 510, -1));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 79, 1517, 10));
 
-        BillTable.setFont(new java.awt.Font("Arial Black", 1, 12)); // NOI18N
+        BillTable.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
+        BillTable.setFont(new java.awt.Font("Trebuchet MS", 1, 12)); // NOI18N
         BillTable.getTableHeader().setFont(new java.awt.Font("Trebuchet MS", 1, 16));
         BillTable.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -131,26 +132,27 @@ public class LabTestsRequested extends javax.swing.JPanel {
                 jButton1ActionPerformed(evt);
             }
         });
-        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 400, 180, 30));
+        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(931, 359, 220, 44));
 
         txtResult.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtResultActionPerformed(evt);
             }
         });
-        add(txtResult, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 390, 250, 60));
+        add(txtResult, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 360, 234, 44));
 
         jButton2.setBackground(new java.awt.Color(0, 153, 153));
         jButton2.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         jButton2.setForeground(new java.awt.Color(0, 153, 153));
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/back.png"))); // NOI18N
+        jButton2.setText("Back");
         jButton2.setBorder(null);
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 30, 130, 50));
+        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 20, 100, 50));
 
         jLabel3.setFont(new java.awt.Font("Georgia", 1, 16)); // NOI18N
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 94, 380, 36));
