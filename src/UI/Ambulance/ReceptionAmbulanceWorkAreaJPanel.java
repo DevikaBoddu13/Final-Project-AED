@@ -10,7 +10,7 @@ import BusinessModel.Ecosystem;
 import BusinessModel.Patient.Patient;
 import BusinessModel.Roles.Patient_role;
 import BusinessModel.UserAccount.User;
-//import BusinessUtil.GoogleMaps.GoogleMapsAmbulanceJPanel;
+import BusinessUtil.GoogleMaps.GoogleMapsAmbulanceJPanel;
 import java.awt.CardLayout;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
@@ -210,7 +210,7 @@ public class ReceptionAmbulanceWorkAreaJPanel extends javax.swing.JPanel {
             patient.setpatient_LabStatus("NewPatient");
             patient.setpatient_AdmitDate(java.util.Calendar.getInstance().getTime());
             
-       //GoogleMapsAmbulanceJPanel GoogleMapsWorkAreaJPanel = new GoogleMapsAmbulanceJPanel(userProcessContainer, ecoSystem, userAccount, ambulance, txtPatientLocation.getText(), patient);
+       GoogleMapsAmbulanceJPanel GoogleMapsWorkAreaJPanel = new GoogleMapsAmbulanceJPanel(userProcessContainer, ecoSystem, userAccount, ambulance, txtPatientLocation.getText(), patient);
         userProcessContainer.add("Google Maps Work Area", GoogleMapsWorkAreaJPanel);
         CardLayout layout = (CardLayout) userProcessContainer.getLayout();
         layout.next(userProcessContainer);
