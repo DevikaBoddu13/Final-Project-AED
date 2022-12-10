@@ -99,8 +99,7 @@ public class DispensaryFunctionsJpanel extends javax.swing.JPanel {
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 139, 1328, 10));
 
         btnSubmit.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
-        btnSubmit.setForeground(new java.awt.Color(51, 51, 51));
-        btnSubmit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-add-40.png"))); // NOI18N
+        btnSubmit.setForeground(new java.awt.Color(202, 97, 71));
         btnSubmit.setText("Add Medicine");
         btnSubmit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -187,8 +186,7 @@ public class DispensaryFunctionsJpanel extends javax.swing.JPanel {
         add(lblName3, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 410, -1, 30));
 
         dBtn.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
-        dBtn.setForeground(new java.awt.Color(51, 51, 51));
-        dBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-remove-40.png"))); // NOI18N
+        dBtn.setForeground(new java.awt.Color(202, 97, 71));
         dBtn.setText("Delete");
         dBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -198,8 +196,7 @@ public class DispensaryFunctionsJpanel extends javax.swing.JPanel {
         add(dBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 440, 210, 40));
 
         conBtn.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
-        conBtn.setForeground(new java.awt.Color(51, 51, 51));
-        conBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-save-40.png"))); // NOI18N
+        conBtn.setForeground(new java.awt.Color(202, 97, 71));
         conBtn.setText("Save Update");
         conBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -209,7 +206,7 @@ public class DispensaryFunctionsJpanel extends javax.swing.JPanel {
         add(conBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 290, 200, 43));
 
         upBtn.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
-        upBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-update-40.png"))); // NOI18N
+        upBtn.setForeground(new java.awt.Color(202, 97, 71));
         upBtn.setText("Update");
         upBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -222,7 +219,7 @@ public class DispensaryFunctionsJpanel extends javax.swing.JPanel {
 
         jButton2.setBackground(new java.awt.Color(0, 153, 153));
         jButton2.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
-        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/back.png"))); // NOI18N
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/icons8-back-arrow-40.png"))); // NOI18N
         jButton2.setBorder(null);
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -231,11 +228,11 @@ public class DispensaryFunctionsJpanel extends javax.swing.JPanel {
         });
         add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 70, 50));
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/dispensary.png"))); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/icons8-pharmacy-50.png"))); // NOI18N
         jLabel5.setMaximumSize(new java.awt.Dimension(100, 100));
         jLabel5.setMinimumSize(new java.awt.Dimension(100, 100));
         jLabel5.setPreferredSize(new java.awt.Dimension(100, 100));
-        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 40, 80, 50));
+        add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(650, 40, 70, 70));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnSubmitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSubmitActionPerformed

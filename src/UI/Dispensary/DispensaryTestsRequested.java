@@ -78,7 +78,7 @@ public class DispensaryTestsRequested extends javax.swing.JPanel {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Patient Request");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-50, 70, 1414, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-60, 80, 1414, -1));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 125, 1434, 10));
 
         BillTable.setFont(new java.awt.Font("Trebuchet MS", 1, 12)); // NOI18N
@@ -111,23 +111,23 @@ public class DispensaryTestsRequested extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(BillTable);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(271, 218, 891, 244));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 510, 891, 244));
 
         jButton1.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(51, 51, 51));
+        jButton1.setForeground(new java.awt.Color(202, 97, 71));
         jButton1.setText("Delivered");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(990, 490, 160, 39));
+        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 790, 160, 39));
 
         jLabel3.setFont(new java.awt.Font("Georgia", 1, 16)); // NOI18N
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 140, 380, 60));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/pharmacy2.gif"))); // NOI18N
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(622, 494, -1, 260));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/diagnosis.png"))); // NOI18N
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 170, 310, 280));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
