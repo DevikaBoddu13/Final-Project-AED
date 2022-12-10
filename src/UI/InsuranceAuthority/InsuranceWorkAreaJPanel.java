@@ -81,7 +81,7 @@ public class InsuranceWorkAreaJPanel extends javax.swing.JPanel {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Insurer");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-480, 50, 1380, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 60, 590, -1));
 
         jButton1.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(0, 153, 204));

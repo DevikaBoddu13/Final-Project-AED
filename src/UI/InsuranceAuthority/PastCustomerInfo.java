@@ -97,7 +97,7 @@ public class PastCustomerInfo extends javax.swing.JPanel {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Customer Status");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-400, 20, 1090, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 20, 450, -1));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 1295, 10));
 
         talbleForBilling.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
@@ -221,15 +221,17 @@ public class PastCustomerInfo extends javax.swing.JPanel {
         lblPLastName.setText("Last Name");
         add(lblPLastName, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 220, 116, -1));
 
+        backBtn.setBackground(new java.awt.Color(0, 102, 102));
         backBtn.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 14)); // NOI18N
         backBtn.setForeground(new java.awt.Color(0, 153, 204));
-        backBtn.setText("Back");
+        backBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/back.png"))); // NOI18N
+        backBtn.setBorder(null);
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(850, 20, 196, 47));
+        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 70, 47));
 
         txtInsStatus.setEditable(false);
         add(txtInsStatus, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 520, 150, 30));

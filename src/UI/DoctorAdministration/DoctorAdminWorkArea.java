@@ -222,7 +222,6 @@ public class DoctorAdminWorkArea extends javax.swing.JPanel {
 
         btnAssignDoctor1.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         btnAssignDoctor1.setForeground(new java.awt.Color(202, 97, 71));
-        btnAssignDoctor1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-batch-assign-48.png"))); // NOI18N
         btnAssignDoctor1.setText("Assign Doctor");
         btnAssignDoctor1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

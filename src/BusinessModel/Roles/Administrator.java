@@ -7,9 +7,9 @@ package BusinessModel.Roles;
 import BusinessModel.Ecosystem;
 import BusinessModel.UserAccount.User;
 import BusinessModel.UserAccount.User;
-import UI.SystemAdmin.ShowAmbulanceDriversJPanel;
-//import MainUserInterface.SystemAdmin.AdministratorJPanel;
-import UI.SystemAdmin.SystemAdminWorkAreaJPanel;
+//import UI.SystemAdmin.ShowAmbulanceDriversJPanel;
+//import UI.SystemAdmin.AdministratorJPanel;
+//import UI.SystemAdmin.SystemAdminWorkAreaJPanel;
 import javax.swing.JPanel;
 
 /**
@@ -19,7 +19,8 @@ import javax.swing.JPanel;
 public class Administrator extends Role{
 
     public JPanel createWorkArea(JPanel userProcessContainer, User user, Ecosystem system) {
-        return new ShowAmbulanceDriversJPanel(userProcessContainer, user, system);
+        return null;
+        //return new ShowAmbulanceDriversJPanel(userProcessContainer, user, system);
     }
 
 }
