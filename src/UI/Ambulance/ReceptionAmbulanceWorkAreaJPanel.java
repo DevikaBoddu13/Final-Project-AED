@@ -80,7 +80,7 @@ public class ReceptionAmbulanceWorkAreaJPanel extends javax.swing.JPanel {
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel1.setFont(new java.awt.Font("Microsoft JhengHei", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Arial Black", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Register an Emergency");
@@ -107,7 +107,7 @@ public class ReceptionAmbulanceWorkAreaJPanel extends javax.swing.JPanel {
         add(txtPatientLocation, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 440, 250, 30));
 
         btnSubmit.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
-        btnSubmit.setForeground(new java.awt.Color(0, 153, 153));
+        btnSubmit.setForeground(new java.awt.Color(202, 97, 73));
         btnSubmit.setText("Submit");
         btnSubmit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -139,7 +139,7 @@ public class ReceptionAmbulanceWorkAreaJPanel extends javax.swing.JPanel {
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, 1432, 10));
 
         Route_JButton.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
-        Route_JButton.setForeground(new java.awt.Color(0, 153, 153));
+        Route_JButton.setForeground(new java.awt.Color(202, 97, 73));
         Route_JButton.setText("View Route");
         Route_JButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

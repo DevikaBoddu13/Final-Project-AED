@@ -82,11 +82,11 @@ public class AmbulanceWorkAreaJPanel extends javax.swing.JPanel {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Existing Ambulance Details");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 20, 730, 80));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 40, 560, 70));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 127, 1280, 10));
 
         btnCreateAmbulance.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
-        btnCreateAmbulance.setForeground(new java.awt.Color(0, 153, 153));
+        btnCreateAmbulance.setForeground(new java.awt.Color(202, 97, 71));
         btnCreateAmbulance.setText("Create Ambulance");
         btnCreateAmbulance.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -127,8 +127,7 @@ public class AmbulanceWorkAreaJPanel extends javax.swing.JPanel {
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 250, 1150, 320));
 
         btnAssignPatient.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
-        btnAssignPatient.setForeground(new java.awt.Color(0, 153, 153));
-        btnAssignPatient.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-emergency-50 (1).png"))); // NOI18N
+        btnAssignPatient.setForeground(new java.awt.Color(202, 97, 71));
         btnAssignPatient.setText("Call Ambulance");
         btnAssignPatient.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -137,22 +136,22 @@ public class AmbulanceWorkAreaJPanel extends javax.swing.JPanel {
         });
         add(btnAssignPatient, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 670, 230, 50));
 
+        btnSubmit1.setBackground(new java.awt.Color(0, 153, 153));
         btnSubmit1.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         btnSubmit1.setForeground(new java.awt.Color(0, 153, 153));
-        btnSubmit1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/Ambulance.png"))); // NOI18N
+        btnSubmit1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/icons8-back-arrow-40.png"))); // NOI18N
+        btnSubmit1.setBorder(null);
         btnSubmit1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnSubmit1ActionPerformed(evt);
             }
         });
-        add(btnSubmit1, new org.netbeans.lib.awtextra.AbsoluteConstraints(150, 20, 160, 100));
+        add(btnSubmit1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 120, 50));
 
         jLabel4.setFont(new java.awt.Font("Microsoft JhengHei", 1, 18)); // NOI18N
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/AmbulanceDriver.jpg"))); // NOI18N
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 150, 340, 230));
-
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-emergency-50.png"))); // NOI18N
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 40, 50, 40));
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/Ambulance.png"))); // NOI18N
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 40, 140, 110));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 40, 50, 10));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnCreateAmbulanceActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCreateAmbulanceActionPerformed

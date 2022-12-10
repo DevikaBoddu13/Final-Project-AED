@@ -86,8 +86,8 @@ public class DisplayAmbulancePatientJPanel extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 240, 1200, 260));
 
-        btnCurrentPatient.setFont(new java.awt.Font("Microsoft JhengHei", 1, 18)); // NOI18N
-        btnCurrentPatient.setForeground(new java.awt.Color(0, 153, 153));
+        btnCurrentPatient.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
+        btnCurrentPatient.setForeground(new java.awt.Color(202, 97, 73));
         btnCurrentPatient.setText("Current Patient");
         btnCurrentPatient.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
