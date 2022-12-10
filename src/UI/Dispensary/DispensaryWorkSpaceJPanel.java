@@ -105,11 +105,11 @@ public class DispensaryWorkSpaceJPanel extends javax.swing.JPanel {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Dispensary");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 20, 270, 50));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 20, 270, 50));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 1221, 10));
 
         jButton2.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(51, 51, 51));
+        jButton2.setForeground(new java.awt.Color(202, 97, 71));
         jButton2.setText("View Appeal");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -119,8 +119,7 @@ public class DispensaryWorkSpaceJPanel extends javax.swing.JPanel {
         add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(893, 354, -1, 41));
 
         jButton1.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(51, 51, 51));
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-update-40.png"))); // NOI18N
+        jButton1.setForeground(new java.awt.Color(202, 97, 71));
         jButton1.setText("Update Catalog");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -202,7 +201,7 @@ public class DispensaryWorkSpaceJPanel extends javax.swing.JPanel {
         add(jScrollPane5, new org.netbeans.lib.awtextra.AbsoluteConstraints(123, 441, 942, 191));
 
         jButton3.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(51, 51, 51));
+        jButton3.setForeground(new java.awt.Color(202, 97, 73));
         jButton3.setText("View Appeal");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -211,8 +210,8 @@ public class DispensaryWorkSpaceJPanel extends javax.swing.JPanel {
         });
         add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(904, 650, -1, 41));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-pharmacy-50.png"))); // NOI18N
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(510, 20, -1, -1));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/icons8-pharmacy-50.png"))); // NOI18N
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 10, 90, 70));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed

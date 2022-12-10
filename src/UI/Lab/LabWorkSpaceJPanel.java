@@ -106,7 +106,7 @@ public class LabWorkSpaceJPanel extends javax.swing.JPanel {
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 79, 1295, 10));
 
         jButton1.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(0, 153, 153));
+        jButton1.setForeground(new java.awt.Color(202, 97, 71));
         jButton1.setText("Available Tests Info");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -153,7 +153,7 @@ public class LabWorkSpaceJPanel extends javax.swing.JPanel {
         add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 170, 740, 200));
 
         jButton2.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(0, 153, 153));
+        jButton2.setForeground(new java.awt.Color(202, 97, 71));
         jButton2.setText("View Request");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -173,7 +173,7 @@ public class LabWorkSpaceJPanel extends javax.swing.JPanel {
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 130, 185, 25));
 
         jButton3.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
-        jButton3.setForeground(new java.awt.Color(0, 153, 153));
+        jButton3.setForeground(new java.awt.Color(202, 97, 71));
         jButton3.setText("View Request");
         jButton3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -219,9 +219,9 @@ public class LabWorkSpaceJPanel extends javax.swing.JPanel {
 
         add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 500, 730, 180));
 
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/lab.png"))); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/icons8-lab-50.png"))); // NOI18N
         jLabel4.setText("jLabel4");
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 20, 70, 60));
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 10, 70, 60));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
