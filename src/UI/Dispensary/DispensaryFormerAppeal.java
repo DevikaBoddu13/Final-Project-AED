@@ -84,8 +84,8 @@ public class DispensaryFormerAppeal extends javax.swing.JPanel {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Former Patient Appeal");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 86, 1414, -1));
-        add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 125, 1434, 10));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-140, 50, 1414, -1));
+        add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 115, 1434, 20));
 
         BillTable.setFont(new java.awt.Font("Trebuchet MS", 1, 12)); // NOI18N
         BillTable.getTableHeader().setFont(new java.awt.Font("Trebuchet MS", 1, 16));
@@ -117,13 +117,13 @@ public class DispensaryFormerAppeal extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(BillTable);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(271, 218, 891, 244));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 470, 891, 330));
 
         jLabel3.setFont(new java.awt.Font("Georgia", 1, 16)); // NOI18N
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 140, 380, 60));
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(870, 140, 380, 60));
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/pharmacy2.gif"))); // NOI18N
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(622, 494, -1, 260));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/former_patient_appeal.png"))); // NOI18N
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 160, 410, 280));
     }// </editor-fold>//GEN-END:initComponents
 
 

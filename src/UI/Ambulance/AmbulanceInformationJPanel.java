@@ -137,7 +137,7 @@ public class AmbulanceInformationJPanel extends javax.swing.JPanel {
         add(txtAge, new org.netbeans.lib.awtextra.AbsoluteConstraints(740, 510, 280, 30));
 
         btnSubmit.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
-        btnSubmit.setForeground(new java.awt.Color(0, 153, 153));
+        btnSubmit.setForeground(new java.awt.Color(202, 97, 71));
         btnSubmit.setText("Submit");
         btnSubmit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
