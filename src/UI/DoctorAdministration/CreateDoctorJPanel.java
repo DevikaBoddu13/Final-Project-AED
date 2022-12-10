@@ -425,8 +425,6 @@ public class CreateDoctorJPanel extends javax.swing.JPanel {
         });
         add(qualificationImageLbl, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 410, -1, -1));
         add(lblErrorDoctorWorkID, new org.netbeans.lib.awtextra.AbsoluteConstraints(970, 290, 180, 30));
-
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-stethoscope-50.png"))); // NOI18N
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 10, 60, 50));
 
         txtDOB.setBackground(new java.awt.Color(204, 204, 204));

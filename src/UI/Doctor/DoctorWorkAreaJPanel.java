@@ -220,8 +220,6 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("New Patients");
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(160, 110, 270, -1));
-
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-doctor-male-skin-type-4-48.png"))); // NOI18N
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(310, 13, 60, 40));
     }// </editor-fold>//GEN-END:initComponents
 
