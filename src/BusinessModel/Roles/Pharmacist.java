@@ -6,7 +6,7 @@ package BusinessModel.Roles;
 
 import BusinessModel.Ecosystem;
 import BusinessModel.UserAccount.User;
-import MainUserInterface.Pharmacy.PharmacyWorkAreaJPanel;
+import UI.Dispensary.DispensaryWorkSpaceJPanel;
 import javax.swing.JPanel;
 
 /**
@@ -17,7 +17,7 @@ public class Pharmacist extends Role{
     
      @Override
     public JPanel createWorkArea(JPanel userProcessContainer, User user, Ecosystem business) {
-        return new PharmacyWorkAreaJPanel(userProcessContainer, user, business);
+        return new DispensaryWorkSpaceJPanel(userProcessContainer, user, business);
     }
     
 }

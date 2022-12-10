@@ -95,11 +95,11 @@ public class Patient {
         this.patient_Age = patient_Age;
     }
 
-    public Date getPdob() {
+    public Date getpatient_Dob() {
         return patient_Dob;
     }
 
-    public void setPdob(Date patient_Dob) {
+    public void setpatient_Dob(Date patient_Dob) {
         this.patient_Dob = patient_Dob;
     }
 
