@@ -34,7 +34,7 @@ public class SendMail {
         properties.put("mail.smtp.ssl.trust", "*");
         
         String senderEmail = "infirmarymanagementsys@gmail.com";
-        String senderPassword = "aed123";
+        String senderPassword = "gussbqcpnwlzxixe";
         
         Session session = Session.getInstance(properties, new Authenticator(){
             @Override
@@ -60,7 +60,7 @@ public class SendMail {
             Message message = new MimeMessage(session);
             message.setFrom(new InternetAddress(senderEmail));
             message.setRecipient(Message.RecipientType.TO, new InternetAddress(recepientEmail));
-            message.setSubject("Hello from AED Project");
+            message.setSubject("Infirmary Management System");
             message.setText(msg);
             return message;
         } catch (Exception ex) {

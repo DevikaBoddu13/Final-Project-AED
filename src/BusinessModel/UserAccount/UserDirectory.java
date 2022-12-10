@@ -25,11 +25,11 @@ public class UserDirectory {
     }
 
     public User authenticateUser(String username, String password) {
-        System.out.println("username ---"+ username);
-          System.out.println("password ---"+password);
+        System.out.println("USERNAME : "+ username);
+          System.out.println("password : "+password);
         for (User ua : userList) {
-            System.out.println("username ---"+ ua.getUsername());
-          System.out.println("password ---"+ua.getPassword());
+            System.out.println("username : "+ ua.getUsername());
+          System.out.println("password : "+ua.getPassword());
             if (ua.getUsername().equals(username) && ua.getPassword().equals(password)) {
                 return ua;
             }
@@ -38,10 +38,11 @@ public class UserDirectory {
     }
 
     public User createUser(String username, String password, Employee employee, Role role) {
-        System.out.println("----user details----");
-        System.out.println("----user name----"+username);
-        System.out.println("----user password----"+password);
-        System.out.println("----user role----"+role);
+        System.out.println("#########USER DETAILS#########");
+        System.out.println("USERNAME : "+username);
+        System.out.println("PASSWORD : "+password);
+        System.out.println("ROLE : "+role);
+        System.out.println("##############################\n");
         User user = new User();
         user.setUsername(username);
         user.setPassword(password);
