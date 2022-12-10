@@ -119,7 +119,6 @@ public class DoctorVisitJPanel extends javax.swing.JPanel {
 
         btnRequestLabTests.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         btnRequestLabTests.setForeground(new java.awt.Color(40, 157, 144));
-        btnRequestLabTests.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-blood-test-40.png"))); // NOI18N
         btnRequestLabTests.setText("Diagnostic Tests");
         btnRequestLabTests.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -130,18 +129,16 @@ public class DoctorVisitJPanel extends javax.swing.JPanel {
 
         btnRequestMedicine.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         btnRequestMedicine.setForeground(new java.awt.Color(40, 157, 144));
-        btnRequestMedicine.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-medicine-40.png"))); // NOI18N
         btnRequestMedicine.setText("Dispensary");
         btnRequestMedicine.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnRequestMedicineActionPerformed(evt);
             }
         });
-        add(btnRequestMedicine, new org.netbeans.lib.awtextra.AbsoluteConstraints(1150, 360, 270, 30));
+        add(btnRequestMedicine, new org.netbeans.lib.awtextra.AbsoluteConstraints(1150, 360, 260, 30));
 
         btnRequestBlood.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         btnRequestBlood.setForeground(new java.awt.Color(40, 157, 144));
-        btnRequestBlood.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-blood-donation-40 (1).png"))); // NOI18N
         btnRequestBlood.setText("Blood Bank");
         btnRequestBlood.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
