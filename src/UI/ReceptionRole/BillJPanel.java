@@ -77,11 +77,11 @@ public class BillJPanel extends javax.swing.JPanel {
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel1.setFont(new java.awt.Font("Microsoft JhengHei", 1, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Patient name");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 200, 280, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 190, 280, -1));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 145, 1915, 10));
 
         talble.setFont(new java.awt.Font("Trebuchet MS", 1, 14)); // NOI18N
@@ -113,39 +113,40 @@ public class BillJPanel extends javax.swing.JPanel {
         });
         jScrollPane1.setViewportView(talble);
 
-        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 200, 580, 251));
+        add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 200, 580, 240));
 
         lblPatientName.setBackground(new java.awt.Color(255, 255, 255));
         lblPatientName.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 24)); // NOI18N
         lblPatientName.setForeground(new java.awt.Color(255, 255, 255));
         lblPatientName.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        add(lblPatientName, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 250, 347, 44));
+        add(lblPatientName, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 240, 347, 40));
 
-        bckBtn.setFont(new java.awt.Font("Microsoft JhengHei", 1, 18)); // NOI18N
+        bckBtn.setBackground(new java.awt.Color(51, 51, 51));
+        bckBtn.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         bckBtn.setForeground(new java.awt.Color(51, 51, 51));
         bckBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/back.png"))); // NOI18N
-        bckBtn.setText(" Back");
+        bckBtn.setBorder(null);
         bckBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bckBtnActionPerformed(evt);
             }
         });
-        add(bckBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 60, 140, 40));
+        add(bckBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 60, 50));
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(1255, 406, 481, 387));
 
         textBill.setBackground(new java.awt.Color(255, 255, 255));
-        textBill.setFont(new java.awt.Font("Microsoft JhengHei", 1, 24)); // NOI18N
+        textBill.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         textBill.setForeground(new java.awt.Color(255, 255, 255));
         textBill.setText("Total bill amount of patient :");
-        add(textBill, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 470, -1, 30));
-        add(totalAmounttxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(960, 470, 120, 30));
+        add(textBill, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 480, 380, 30));
+        add(totalAmounttxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 480, 120, 30));
 
         jLabel3.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel3.setFont(new java.awt.Font("Microsoft JhengHei", 1, 36)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Arial Black", 1, 36)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel3.setText("View Bill");
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 50, 180, -1));
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 80, 180, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void bckBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_bckBtnActionPerformed
