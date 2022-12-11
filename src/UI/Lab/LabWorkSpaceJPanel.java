@@ -150,7 +150,7 @@ public class LabWorkSpaceJPanel extends javax.swing.JPanel {
             managePatientTable1.getColumnModel().getColumn(6).setMaxWidth(0);
         }
 
-        add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 170, 740, 200));
+        add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 140, 740, 200));
 
         jButton2.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         jButton2.setForeground(new java.awt.Color(202, 97, 71));
@@ -160,17 +160,17 @@ public class LabWorkSpaceJPanel extends javax.swing.JPanel {
                 jButton2ActionPerformed(evt);
             }
         });
-        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(910, 390, 180, 30));
+        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 360, 180, 30));
 
         jLabel2.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Past Requests");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(613, 440, 150, 30));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 400, 180, 30));
 
         jLabel3.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Current Requests");
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 130, 185, 25));
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(550, 100, 185, 25));
 
         jButton3.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         jButton3.setForeground(new java.awt.Color(202, 97, 71));
@@ -180,7 +180,7 @@ public class LabWorkSpaceJPanel extends javax.swing.JPanel {
                 jButton3ActionPerformed(evt);
             }
         });
-        add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 710, 170, 30));
+        add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 660, 170, 30));
 
         managePatientTable2.setFont(new java.awt.Font("Trebuchet MS", 1, 12)); // NOI18N
         managePatientTable2.getTableHeader().setFont(new java.awt.Font("Trebuchet MS", 1, 16));
@@ -217,7 +217,7 @@ public class LabWorkSpaceJPanel extends javax.swing.JPanel {
             managePatientTable2.getColumnModel().getColumn(6).setMaxWidth(0);
         }
 
-        add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 500, 730, 180));
+        add(jScrollPane6, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 460, 730, 180));
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/icons8-lab-50.png"))); // NOI18N
         jLabel4.setText("jLabel4");
