@@ -484,6 +484,7 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
 
         txtDOB.setBackground(new java.awt.Color(204, 204, 204));
         txtDOB.setDateFormatString("MM-dd-yyyy");
+        txtDOB.setMaxSelectableDate(new Date());
         add(txtDOB, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 350, 140, 30));
     }// </editor-fold>//GEN-END:initComponents
 
@@ -549,7 +550,7 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
 
             ecoSystem.getUserAccountDirectory().createUser(txtUserName.getText(), txtPassword.getText(), null, new Patient_role());
             ecoSystem.getPatientDirectory().createPatient(patient);
-            SendMail.sendMail(patient.getpatient_EmailAddress(), "Hello "+patient.getpatient_FirstName()+","+"\nCreated record in Infirmary Management System! \nThank you,\nInfirmary Management System.");
+            SendMail.sendMail(patient.getpatient_EmailAddress(), "Hello "+patient.getpatient_FirstName()+",Created record in Infirmary Management System! <br/> Thank you, <br/> Infirmary Management System.");
             for (Patient p : ecoSystem.getPatientDirectory().getPatientList()) {
                 if (p.getpatient_UserName().equals(txtUserName.getText())) {
                     ecoSystem.getPatientDirectory().AddBill(p, "Bed Charge", "Hospital", "Ammount");

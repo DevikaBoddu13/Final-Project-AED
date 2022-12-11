@@ -177,12 +177,12 @@ public class ReceptionDischarge extends javax.swing.JPanel {
             }
             else if(patient.getpatient_InsuranceStatus().equals("Cash")||patient.getpatient_InsuranceStatus().equals("Rejected")){
                 patient.setpatient_Status("Discharged");
-                SendMail.sendMail(patient.getpatient_EmailAddress(), "Hello "+patient.getpatient_FirstName()+","+"\nCash Payment Processed. Total Bill Amount is :"+String.valueOf(totalAmount)+"\nThank you,\nInfirmary Management System.");
+                SendMail.sendMail(patient.getpatient_EmailAddress(), "Hello "+patient.getpatient_FirstName()+",Cash Payment Processed. Total Bill Amount is :"+String.valueOf(totalAmount)+"<br/>Thank you, <br/>Infirmary Management System.");
                 JOptionPane.showMessageDialog(null, "Cash payment Received.Patient Discharged.", "Information", JOptionPane.INFORMATION_MESSAGE);
             }
             else{
                 patient.setpatient_Status("Discharged");
-                SendMail.sendMail(patient.getpatient_EmailAddress(), "Hello "+patient.getpatient_FirstName()+","+"\nInsurance Payment Cleared. Total Bill Amount is :"+String.valueOf(totalAmount)+"\nThank you,\nInfirmary Management System.");
+                SendMail.sendMail(patient.getpatient_EmailAddress(), "Hello "+patient.getpatient_FirstName()+",Insurance Payment Cleared. Total Bill Amount is :"+String.valueOf(totalAmount)+"<br/>Thank you, <br/>Infirmary Management System.");
                 JOptionPane.showMessageDialog(null, "Insurance payment Received.Patient Discharged.", "Warning", JOptionPane.INFORMATION_MESSAGE);
             }
             //patient.setStatus("Insurance Verification");
