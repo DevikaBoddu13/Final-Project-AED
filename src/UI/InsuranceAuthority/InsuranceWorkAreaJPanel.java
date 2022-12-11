@@ -77,14 +77,14 @@ public class InsuranceWorkAreaJPanel extends javax.swing.JPanel {
         setBackground(new java.awt.Color(0, 102, 102));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Arial Black", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Insurer");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(290, 60, 590, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 60, 540, 50));
 
-        jButton1.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(0, 153, 204));
+        jButton1.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(202, 97, 71));
         jButton1.setText("View Details");
         jButton1.setBorderPainted(false);
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -92,7 +92,7 @@ public class InsuranceWorkAreaJPanel extends javax.swing.JPanel {
                 jButton1ActionPerformed(evt);
             }
         });
-        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 330, 220, 80));
+        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 500, 200, 40));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 126, 1380, 10));
 
         PatientTbl.getTableHeader().setFont(new java.awt.Font("Trebuchet MS", 1, 16));
@@ -132,15 +132,15 @@ public class InsuranceWorkAreaJPanel extends javax.swing.JPanel {
 
         add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 160, 980, 260));
 
-        recBtn.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
-        recBtn.setForeground(new java.awt.Color(0, 153, 204));
+        recBtn.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
+        recBtn.setForeground(new java.awt.Color(202, 97, 71));
         recBtn.setText("View Past Records");
         recBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 recBtnActionPerformed(evt);
             }
         });
-        add(recBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 180, 220, 90));
+        add(recBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(770, 500, 220, 40));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
