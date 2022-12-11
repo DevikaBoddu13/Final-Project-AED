@@ -129,7 +129,7 @@ public class LabFormerAppeal extends javax.swing.JPanel {
                 jButton2ActionPerformed(evt);
             }
         });
-        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 140, 40));
+        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 50, 40));
 
         jLabel2.setFont(new java.awt.Font("Georgia", 1, 16)); // NOI18N
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 110, 380, 60));
