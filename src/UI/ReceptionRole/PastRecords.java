@@ -80,12 +80,12 @@ public class PastRecords extends javax.swing.JPanel {
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(944, 60, 1, 10));
 
-        lblManageCustomers.setBackground(new java.awt.Color(119, 197, 147));
-        lblManageCustomers.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 36)); // NOI18N
+        lblManageCustomers.setBackground(new java.awt.Color(51, 51, 51));
+        lblManageCustomers.setFont(new java.awt.Font("Arial Black", 1, 36)); // NOI18N
         lblManageCustomers.setForeground(new java.awt.Color(255, 255, 255));
         lblManageCustomers.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        lblManageCustomers.setText("                      Manage Patients");
-        add(lblManageCustomers, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 20, 590, 70));
+        lblManageCustomers.setText("  Manage Patients");
+        add(lblManageCustomers, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 30, 380, 60));
 
         ManageCustomersTable.setFont(new java.awt.Font("Trebuchet MS", 1, 14)); // NOI18N
         ManageCustomersTable.setModel(new javax.swing.table.DefaultTableModel(
@@ -123,8 +123,8 @@ public class PastRecords extends javax.swing.JPanel {
 
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 143, 925, 191));
 
-        btnUpdateAmbulanceRecord.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 14)); // NOI18N
-        btnUpdateAmbulanceRecord.setForeground(new java.awt.Color(51, 51, 51));
+        btnUpdateAmbulanceRecord.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
+        btnUpdateAmbulanceRecord.setForeground(new java.awt.Color(202, 97, 71));
         btnUpdateAmbulanceRecord.setText("Bill");
         btnUpdateAmbulanceRecord.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -133,15 +133,17 @@ public class PastRecords extends javax.swing.JPanel {
         });
         add(btnUpdateAmbulanceRecord, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 420, 160, 50));
 
+        btnUpdateAmbulanceRecord1.setBackground(new java.awt.Color(51, 51, 51));
         btnUpdateAmbulanceRecord1.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 14)); // NOI18N
         btnUpdateAmbulanceRecord1.setForeground(new java.awt.Color(51, 51, 51));
-        btnUpdateAmbulanceRecord1.setText("Back");
+        btnUpdateAmbulanceRecord1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/back.png"))); // NOI18N
+        btnUpdateAmbulanceRecord1.setBorder(null);
         btnUpdateAmbulanceRecord1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnUpdateAmbulanceRecord1ActionPerformed(evt);
             }
         });
-        add(btnUpdateAmbulanceRecord1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 140, 50));
+        add(btnUpdateAmbulanceRecord1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 70, 40));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnUpdateAmbulanceRecordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUpdateAmbulanceRecordActionPerformed
