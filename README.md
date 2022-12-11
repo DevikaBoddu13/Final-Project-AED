@@ -24,3 +24,10 @@ This repo is for info 5100 final project fall 2022 semester
 3.  Name: Anutej Poddaturi </br>
     Email: poddaturi.a@northeastern.edu </br>
     NUID: 002922161
+
+# Steps to regenerate this project
+
+1. Git clone the project by running the below command in the terminal at the location you want to clone locally: ``` git clone https://github.com/apoddaturi/Final-Project-AED.git```
+2. Open the project in Eclipse or Netbeans
+3. Add all the dependencies to libraries and right click on the project from project file manager then click clean and build.
+4. Run it.
