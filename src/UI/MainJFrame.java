@@ -121,7 +121,7 @@ public class MainJFrame extends javax.swing.JFrame {
 
         homeDisplay.setBackground(new java.awt.Color(255, 255, 255));
         homeDisplay.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        homeDisplay.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/hospital_1295x950.jpg"))); // NOI18N
+        homeDisplay.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/hospitalMain.jpg"))); // NOI18N
         mainContainer.add(homeDisplay, "card2");
 
         jSplitPane1.setRightComponent(mainContainer);
