@@ -85,15 +85,15 @@ public class PastInfo extends javax.swing.JPanel {
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel1.setFont(new java.awt.Font("Georgia", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Arial Black", 1, 30)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("PERSON INFORMATION");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 30, 500, 80));
+        jLabel1.setText("Person Information");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 30, 390, 70));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 127, 1402, 10));
 
         lblPatientPhone.setBackground(new java.awt.Color(255, 255, 255));
-        lblPatientPhone.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
+        lblPatientPhone.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         lblPatientPhone.setForeground(new java.awt.Color(255, 255, 255));
         lblPatientPhone.setText("Phone Number");
         add(lblPatientPhone, new org.netbeans.lib.awtextra.AbsoluteConstraints(360, 420, -1, -1));
@@ -107,7 +107,7 @@ public class PastInfo extends javax.swing.JPanel {
         add(txtAddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 250, 150, 31));
 
         lblPatientAddress.setBackground(new java.awt.Color(255, 255, 255));
-        lblPatientAddress.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
+        lblPatientAddress.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         lblPatientAddress.setForeground(new java.awt.Color(255, 255, 255));
         lblPatientAddress.setText("Address");
         add(lblPatientAddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(420, 260, -1, -1));
@@ -121,7 +121,7 @@ public class PastInfo extends javax.swing.JPanel {
         add(txtHealthInsuranceID, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 290, 150, 31));
 
         lblPatientHealthInsuranceID.setBackground(new java.awt.Color(255, 255, 255));
-        lblPatientHealthInsuranceID.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
+        lblPatientHealthInsuranceID.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         lblPatientHealthInsuranceID.setForeground(new java.awt.Color(255, 255, 255));
         lblPatientHealthInsuranceID.setText("InsuranceID");
         add(lblPatientHealthInsuranceID, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 300, 128, -1));
@@ -130,7 +130,7 @@ public class PastInfo extends javax.swing.JPanel {
         add(txtGender, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 370, 150, 31));
 
         lblPatientGender.setBackground(new java.awt.Color(255, 255, 255));
-        lblPatientGender.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
+        lblPatientGender.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         lblPatientGender.setForeground(new java.awt.Color(255, 255, 255));
         lblPatientGender.setText("Gender");
         add(lblPatientGender, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 380, 98, -1));
@@ -142,7 +142,7 @@ public class PastInfo extends javax.swing.JPanel {
         add(txtFirstName, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 170, 150, 31));
 
         lblPatientFirstName.setBackground(new java.awt.Color(255, 255, 255));
-        lblPatientFirstName.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
+        lblPatientFirstName.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         lblPatientFirstName.setForeground(new java.awt.Color(255, 255, 255));
         lblPatientFirstName.setText("First Name");
         add(lblPatientFirstName, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 180, 116, -1));
@@ -156,7 +156,7 @@ public class PastInfo extends javax.swing.JPanel {
         add(txtAge, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 330, 150, 31));
 
         lblPatientAge.setBackground(new java.awt.Color(255, 255, 255));
-        lblPatientAge.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
+        lblPatientAge.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         lblPatientAge.setForeground(new java.awt.Color(255, 255, 255));
         lblPatientAge.setText("DOB");
         add(lblPatientAge, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 340, 50, -1));
@@ -170,22 +170,22 @@ public class PastInfo extends javax.swing.JPanel {
         add(txtLastName, new org.netbeans.lib.awtextra.AbsoluteConstraints(530, 210, 150, 31));
 
         lblPatientLastName.setBackground(new java.awt.Color(255, 255, 255));
-        lblPatientLastName.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
+        lblPatientLastName.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         lblPatientLastName.setForeground(new java.awt.Color(255, 255, 255));
         lblPatientLastName.setText("Last Name");
         add(lblPatientLastName, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 220, 116, -1));
 
         txtPoliceVerification.setEditable(false);
-        add(txtPoliceVerification, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 560, 150, 31));
+        add(txtPoliceVerification, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 590, 200, 40));
 
         lblPatientPhone1.setBackground(new java.awt.Color(255, 255, 255));
-        lblPatientPhone1.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
+        lblPatientPhone1.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         lblPatientPhone1.setForeground(new java.awt.Color(255, 255, 255));
         lblPatientPhone1.setText("Police Verification");
-        add(lblPatientPhone1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 520, -1, -1));
+        add(lblPatientPhone1, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 550, -1, -1));
 
         lblPatientHealthInsuranceID1.setBackground(new java.awt.Color(255, 255, 255));
-        lblPatientHealthInsuranceID1.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
+        lblPatientHealthInsuranceID1.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         lblPatientHealthInsuranceID1.setForeground(new java.awt.Color(255, 255, 255));
         lblPatientHealthInsuranceID1.setText("Accident Location");
         add(lblPatientHealthInsuranceID1, new org.netbeans.lib.awtextra.AbsoluteConstraints(330, 460, -1, -1));
@@ -208,7 +208,7 @@ public class PastInfo extends javax.swing.JPanel {
                 jButton1ActionPerformed(evt);
             }
         });
-        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 50, 60, 40));
+        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 30, 60, 50));
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtAddressActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtAddressActionPerformed

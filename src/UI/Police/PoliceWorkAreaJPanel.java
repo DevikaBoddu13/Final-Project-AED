@@ -99,13 +99,13 @@ public class PoliceWorkAreaJPanel extends javax.swing.JPanel {
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/icons8-police-64.png"))); // NOI18N
-        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 80, 100, 110));
+        add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(450, 90, 70, 80));
 
-        jLabel1.setFont(new java.awt.Font("Georgia", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Arial Black", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setText("POLICE DEPATMENT");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 6, 1260, 80));
+        jLabel1.setText("Police Department");
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(186, 26, 590, 50));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 84, 1260, 30));
 
         managePatientTable.setFont(new java.awt.Font("Trebuchet MS", 1, 14)); // NOI18N
@@ -144,15 +144,15 @@ public class PoliceWorkAreaJPanel extends javax.swing.JPanel {
 
         add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 1260, 140));
 
-        jLabel2.setFont(new java.awt.Font("Georgia", 1, 24)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel2.setText("VERIFICATION REQUEST");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 210, 334, 21));
+        jLabel2.setText("Verification Request");
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(34, 201, 320, 30));
 
-        jLabel3.setFont(new java.awt.Font("Georgia", 1, 24)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel3.setText("PAST RECORDS");
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 470, 313, 21));
+        jLabel3.setText("Past Records");
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 460, 310, 40));
 
         managePatientTable1.setFont(new java.awt.Font("Trebuchet MS", 1, 14)); // NOI18N
         managePatientTable1.setModel(new javax.swing.table.DefaultTableModel(
@@ -190,25 +190,25 @@ public class PoliceWorkAreaJPanel extends javax.swing.JPanel {
 
         add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 510, 1260, 191));
 
-        jButton1.setFont(new java.awt.Font("Trebuchet MS", 1, 18)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(51, 51, 51));
+        jButton1.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(202, 97, 71));
         jButton1.setText("View Details of Verification");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
             }
         });
-        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(480, 410, 316, 37));
+        add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 420, 316, 37));
 
-        jButton2.setFont(new java.awt.Font("Trebuchet MS", 1, 18)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(51, 51, 51));
+        jButton2.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(202, 97, 71));
         jButton2.setText("View Details of Past Records");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
             }
         });
-        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 720, 310, 39));
+        add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 720, 320, 40));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
