@@ -125,7 +125,6 @@ public class LabTestsRequested extends javax.swing.JPanel {
 
         jButton1.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(202, 97, 71));
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-update-40.png"))); // NOI18N
         jButton1.setText("Update");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -154,7 +153,7 @@ public class LabTestsRequested extends javax.swing.JPanel {
         add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 10, 60, 50));
 
         jLabel3.setFont(new java.awt.Font("Georgia", 1, 16)); // NOI18N
-        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 94, 380, 36));
+        add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(151, 94, 10, 36));
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
