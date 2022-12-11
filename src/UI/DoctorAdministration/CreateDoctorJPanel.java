@@ -463,14 +463,14 @@ public class CreateDoctorJPanel extends javax.swing.JPanel {
 
     private void btnSubmitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSubmitActionPerformed
         // TODO add your handling code here:
-        if (ecoSystem.getUserAccountDirectory().checkIfUsernameIsUnique(PasswordTxt.getText())
+        if (ecoSystem.getUserAccountDirectory().checkIfUsernameIsUnique(UsernameTxt.getText())
                 && (lblErrorAddress.getText() == null || lblErrorAddress.getText().equals(""))
                 && (ErrorEmailLbl.getText() == null || ErrorEmailLbl.getText().equals(""))
                 && (ErrorPasswordLbl.getText() == null || ErrorPasswordLbl.getText().equals(""))
                 && (ErrorPhoneLbl.getText() == null || ErrorPhoneLbl.getText().equals(""))
                 && (ErrorUserNameLbl.getText() == null || ErrorUserNameLbl.getText().equals(""))     
                 ) {
-            Doctor doctor = new Doctor(PasswordTxt.getText());
+            Doctor doctor = new Doctor(UsernameTxt.getText());
             doctor.setDoctor_FirstName(FirstNameTxt.getText());
             doctor.setDoctor_LastName(LastNameTxt.getText());
             doctor.setDoc_Age((CalculateAge(txtDOB.getDate(), java.util.Calendar.getInstance().getTime())));
@@ -481,9 +481,9 @@ public class CreateDoctorJPanel extends javax.swing.JPanel {
             doctor.setDoc_Mail(EmailTxt.getText());
             doctor.setDoc_Specialization(SpecialistTxt.getText());
             doctor.setDoc_Experience(ExperienceTxt.getText());
-            doctor.setDoctor_UserName(PasswordTxt.getText());
+            doctor.setDoctor_UserName(UsernameTxt.getText());
             photoDoctor = doctor;
-            ecoSystem.getUserAccountDirectory().createUser(PasswordTxt.getText(), UsernameTxt.getText(), null, new Doctor_role());
+            ecoSystem.getUserAccountDirectory().createUser(UsernameTxt.getText(), PasswordTxt.getText(), null, new Doctor_role());
             ecoSystem.getDoctorDirectory().createDoctor(doctor);
             JOptionPane.showMessageDialog(null, "Doctor added.");
             
