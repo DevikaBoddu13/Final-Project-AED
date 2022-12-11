@@ -107,14 +107,14 @@ public class TreatedPatientJPanel extends javax.swing.JPanel {
             ManagePatientTable.getColumnModel().getColumn(8).setMaxWidth(0);
         }
 
-        add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 250, 1110, 400));
+        add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 140, 1110, 400));
 
         jLabel2.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel2.setFont(new java.awt.Font("Arial Black", 1, 36)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("Requested Patient History");
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 130, 1260, 80));
+        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 10, 820, 50));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, 1270, 10));
 
         btnBack.setBackground(new java.awt.Color(0, 102, 102));
@@ -127,7 +127,7 @@ public class TreatedPatientJPanel extends javax.swing.JPanel {
                 btnBackActionPerformed(evt);
             }
         });
-        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 40, 70, 40));
+        add(btnBack, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 60, 40));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
