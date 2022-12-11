@@ -12,6 +12,7 @@ import BusinessModel.Ecosystem;
 import BusinessModel.Roles.Doctor_role;
 import BusinessModel.Roles.Patient_role;
 import BusinessModel.UserAccount.User;
+import java.awt.CardLayout;
 import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
@@ -91,6 +92,7 @@ public class UpdateDoctorJPanel extends javax.swing.JPanel {
         txtUsername = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
         btnSubmit = new javax.swing.JButton();
+        btnSubmit1 = new javax.swing.JButton();
 
         setBackground(new java.awt.Color(0, 102, 102));
 
@@ -115,14 +117,14 @@ public class UpdateDoctorJPanel extends javax.swing.JPanel {
         lblPhoneNumber.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         lblPhoneNumber.setForeground(new java.awt.Color(255, 255, 255));
         lblPhoneNumber.setText("Last Name");
-        jPanel1.add(lblPhoneNumber, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 210, 101, -1));
+        jPanel1.add(lblPhoneNumber, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 220, 101, -1));
 
         txtLastName.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtLastNameActionPerformed(evt);
             }
         });
-        jPanel1.add(txtLastName, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 210, 185, 30));
+        jPanel1.add(txtLastName, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 220, 185, 30));
 
         lblAddress.setBackground(new java.awt.Color(0, 0, 0));
         lblAddress.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
@@ -141,27 +143,27 @@ public class UpdateDoctorJPanel extends javax.swing.JPanel {
         lblRestaurantName1.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         lblRestaurantName1.setForeground(new java.awt.Color(255, 255, 255));
         lblRestaurantName1.setText("Gender");
-        jPanel1.add(lblRestaurantName1, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 250, 80, -1));
+        jPanel1.add(lblRestaurantName1, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 260, 70, 30));
 
         txtGender.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtGenderActionPerformed(evt);
             }
         });
-        jPanel1.add(txtGender, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 250, 180, 30));
+        jPanel1.add(txtGender, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 260, 180, 30));
 
         lblPhoneNumber1.setBackground(new java.awt.Color(255, 255, 255));
         lblPhoneNumber1.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         lblPhoneNumber1.setForeground(new java.awt.Color(255, 255, 255));
         lblPhoneNumber1.setText("Doctor Work ID");
-        jPanel1.add(lblPhoneNumber1, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 170, -1, -1));
+        jPanel1.add(lblPhoneNumber1, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 180, -1, -1));
 
         txtDoctorID.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtDoctorIDActionPerformed(evt);
             }
         });
-        jPanel1.add(txtDoctorID, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 170, 185, 33));
+        jPanel1.add(txtDoctorID, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 180, 185, 33));
 
         lblAddress1.setBackground(new java.awt.Color(255, 255, 255));
         lblAddress1.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
@@ -180,14 +182,14 @@ public class UpdateDoctorJPanel extends javax.swing.JPanel {
         lblRestaurantName2.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         lblRestaurantName2.setForeground(new java.awt.Color(255, 255, 255));
         lblRestaurantName2.setText("Date of Birth");
-        jPanel1.add(lblRestaurantName2, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 340, -1, -1));
+        jPanel1.add(lblRestaurantName2, new org.netbeans.lib.awtextra.AbsoluteConstraints(680, 340, -1, 30));
 
         txtDateOfBirth.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtDateOfBirthActionPerformed(evt);
             }
         });
-        jPanel1.add(txtDateOfBirth, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 330, 180, 30));
+        jPanel1.add(txtDateOfBirth, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 340, 180, 30));
 
         lblPhoneNumber2.setBackground(new java.awt.Color(255, 255, 255));
         lblPhoneNumber2.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
@@ -206,27 +208,27 @@ public class UpdateDoctorJPanel extends javax.swing.JPanel {
         lblAddress2.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         lblAddress2.setForeground(new java.awt.Color(255, 255, 255));
         lblAddress2.setText("Specialist");
-        jPanel1.add(lblAddress2, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 370, -1, 30));
+        jPanel1.add(lblAddress2, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 380, -1, 30));
 
         txtSpecialist.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtSpecialistActionPerformed(evt);
             }
         });
-        jPanel1.add(txtSpecialist, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 370, 180, 30));
+        jPanel1.add(txtSpecialist, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 380, 180, 30));
 
         lblAddress3.setBackground(new java.awt.Color(255, 255, 255));
         lblAddress3.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         lblAddress3.setForeground(new java.awt.Color(255, 255, 255));
         lblAddress3.setText("Address");
-        jPanel1.add(lblAddress3, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 290, 80, -1));
+        jPanel1.add(lblAddress3, new org.netbeans.lib.awtextra.AbsoluteConstraints(710, 300, 80, 30));
 
         txtAddress.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtAddressActionPerformed(evt);
             }
         });
-        jPanel1.add(txtAddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(800, 290, 180, 30));
+        jPanel1.add(txtAddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(790, 300, 180, 30));
 
         lblAddress4.setBackground(new java.awt.Color(255, 255, 255));
         lblAddress4.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
@@ -252,7 +254,7 @@ public class UpdateDoctorJPanel extends javax.swing.JPanel {
         jLabel2.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Username");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 170, 115, 33));
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 170, 100, 33));
 
         btnSubmit.setFont(new java.awt.Font("Arial Black", 1, 16)); // NOI18N
         btnSubmit.setForeground(new java.awt.Color(202, 97, 71));
@@ -262,23 +264,38 @@ public class UpdateDoctorJPanel extends javax.swing.JPanel {
                 btnSubmitActionPerformed(evt);
             }
         });
-        jPanel1.add(btnSubmit, new org.netbeans.lib.awtextra.AbsoluteConstraints(610, 430, 160, 40));
+        jPanel1.add(btnSubmit, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 470, 160, 40));
+
+        btnSubmit1.setBackground(new java.awt.Color(0, 102, 102));
+        btnSubmit1.setFont(new java.awt.Font("Trebuchet MS", 1, 18)); // NOI18N
+        btnSubmit1.setForeground(new java.awt.Color(51, 51, 51));
+        btnSubmit1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/back.png"))); // NOI18N
+        btnSubmit1.setBorder(null);
+        btnSubmit1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnSubmit1ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(117, 117, 117)
+                .addGap(16, 16, 16)
+                .addComponent(btnSubmit1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(51, 51, 51)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(446, Short.MAX_VALUE))
+                .addContainerGap(456, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(3217, Short.MAX_VALUE))
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(btnSubmit1, javax.swing.GroupLayout.PREFERRED_SIZE, 46, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(3177, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -343,9 +360,18 @@ public class UpdateDoctorJPanel extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtUsernameActionPerformed
 
+    private void btnSubmit1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSubmit1ActionPerformed
+        // TODO add your handling code here:
+        DoctorAdminWorkArea patientBillJPanel = new DoctorAdminWorkArea(userProcessContainer,userAccount,ecoSystem);
+        userProcessContainer.add("Doctor Update", patientBillJPanel);
+        CardLayout layout = (CardLayout) userProcessContainer.getLayout();
+        layout.next(userProcessContainer);
+    }//GEN-LAST:event_btnSubmit1ActionPerformed
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnSubmit;
+    private javax.swing.JButton btnSubmit1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JLabel lblAddress;
