@@ -78,7 +78,7 @@ public class AmbulanceWorkAreaJPanel extends javax.swing.JPanel {
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel1.setFont(new java.awt.Font("Arial Black", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Existing Ambulance Details");
@@ -93,7 +93,7 @@ public class AmbulanceWorkAreaJPanel extends javax.swing.JPanel {
                 btnCreateAmbulanceActionPerformed(evt);
             }
         });
-        add(btnCreateAmbulance, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 670, 220, 50));
+        add(btnCreateAmbulance, new org.netbeans.lib.awtextra.AbsoluteConstraints(320, 590, 230, 50));
 
         ManageAmbulanceTable.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0), 2));
         ManageAmbulanceTable.setModel(new javax.swing.table.DefaultTableModel(
@@ -134,7 +134,7 @@ public class AmbulanceWorkAreaJPanel extends javax.swing.JPanel {
                 btnAssignPatientActionPerformed(evt);
             }
         });
-        add(btnAssignPatient, new org.netbeans.lib.awtextra.AbsoluteConstraints(640, 670, 230, 50));
+        add(btnAssignPatient, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 590, 230, 50));
 
         btnSubmit1.setBackground(new java.awt.Color(0, 153, 153));
         btnSubmit1.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
@@ -146,11 +146,11 @@ public class AmbulanceWorkAreaJPanel extends javax.swing.JPanel {
                 btnSubmit1ActionPerformed(evt);
             }
         });
-        add(btnSubmit1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 40, 120, 50));
+        add(btnSubmit1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 10, 50, 50));
 
         jLabel4.setFont(new java.awt.Font("Microsoft JhengHei", 1, 18)); // NOI18N
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/Ambulance.png"))); // NOI18N
-        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 40, 140, 110));
+        add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(840, 0, 110, 130));
         add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 40, 50, 10));
     }// </editor-fold>//GEN-END:initComponents
 
