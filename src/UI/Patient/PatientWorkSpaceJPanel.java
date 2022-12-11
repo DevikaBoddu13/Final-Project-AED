@@ -222,7 +222,7 @@ public class PatientWorkSpaceJPanel extends javax.swing.JPanel {
         add(lblPatientFirstName, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, -1, -1));
 
         lblPhotoImage.setBackground(new java.awt.Color(255, 255, 255));
-        add(lblPhotoImage, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 410, 140, 136));
+        add(lblPhotoImage, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 290, 150, 136));
 
         lblPatientGender.setBackground(new java.awt.Color(255, 255, 255));
         lblPatientGender.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
