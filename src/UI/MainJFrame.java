@@ -30,13 +30,13 @@ public class MainJFrame extends javax.swing.JFrame {
         initComponents();
         system = dB4OUtil.retrieveSystem();
         this.setSize(1680, 1050);
-        system.getUserAccountDirectory().createUser("bloodbank", "bloodbank", null, new BloodBank());
-        system.getUserAccountDirectory().createUser("pharmacy", "pharmacy", null, new Pharmacist());
+        system.getUserAccountDirectory().createUser("bloodbk", "bloodbk", null, new BloodBank());
+        system.getUserAccountDirectory().createUser("dispen", "dispen", null, new Pharmacist());
         system.getUserAccountDirectory().createUser("insurance", "insurance", null, new InsuranceManager());
-        system.getUserAccountDirectory().createUser("ambulance", "ambulance", null, new AmbulanceDriver());
-        system.getUserAccountDirectory().createUser("lab", "lab", null, new Lab());
-        system.getUserAccountDirectory().createUser("hos", "hos", null, new Reception());
-        system.getUserAccountDirectory().createUser("cop", "cop", null, new Police());
+        system.getUserAccountDirectory().createUser("ambul", "ambul", null, new AmbulanceDriver());
+        system.getUserAccountDirectory().createUser("lab", "laborat", null, new Lab());
+        system.getUserAccountDirectory().createUser("infirm", "infirm", null, new Reception());
+        system.getUserAccountDirectory().createUser("police", "police", null, new Police());
         system.getUserAccountDirectory().createUser("doctor", "doctor", null, new DoctorsAdministrator());
     }
 
@@ -142,7 +142,7 @@ public class MainJFrame extends javax.swing.JFrame {
         }
         catch(Exception e){
             System.out.println("exception ---");
-            //e.printStackTrace();
+//            e.printStackTrace();
             System.out.println("exception due to ---"+e.getMessage());
             JOptionPane.showMessageDialog(null,"Username/Password is wrong!","Warning",JOptionPane.WARNING_MESSAGE);
         }
