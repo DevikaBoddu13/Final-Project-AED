@@ -138,6 +138,9 @@ public class MainJFrame extends javax.swing.JFrame {
             System.out.println("role of user ---"+ua.getRole());
             mainContainer.add(ua.getRole().createWorkArea(mainContainer, ua, system));
             layout.next(mainContainer);
+            userNameInputField.setEnabled(false);
+            passwordInputField.setEnabled(false);
+            signInBtn.setEnabled(false);
             signOutBtn.setEnabled(true);
         }
         catch(Exception e){
