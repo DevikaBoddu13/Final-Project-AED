@@ -109,11 +109,11 @@ public class BloodBankWorkAreaJPanel extends javax.swing.JPanel {
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         lblPatientBill.setBackground(new java.awt.Color(255, 255, 255));
-        lblPatientBill.setFont(new java.awt.Font("Georgia", 1, 36)); // NOI18N
+        lblPatientBill.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         lblPatientBill.setForeground(new java.awt.Color(255, 255, 255));
         lblPatientBill.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         lblPatientBill.setText("BILLS");
-        add(lblPatientBill, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 370, 160, 83));
+        add(lblPatientBill, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 413, 160, 40));
 
         ManagePatientTable.setFont(new java.awt.Font("Trebuchet MS", 1, 14)); // NOI18N
         ManagePatientTable.setModel(new javax.swing.table.DefaultTableModel(
@@ -149,17 +149,17 @@ public class BloodBankWorkAreaJPanel extends javax.swing.JPanel {
             ManagePatientTable.getColumnModel().getColumn(9).setMaxWidth(0);
         }
 
-        add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 140, 860, 191));
+        add(jScrollPane3, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 130, 860, 191));
 
-        btnBloodBankInfo.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
-        btnBloodBankInfo.setForeground(new java.awt.Color(0, 153, 204));
+        btnBloodBankInfo.setFont(new java.awt.Font("Arial Black", 1, 16)); // NOI18N
+        btnBloodBankInfo.setForeground(new java.awt.Color(202, 97, 71));
         btnBloodBankInfo.setText("Blood Bank Information");
         btnBloodBankInfo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBloodBankInfoActionPerformed(evt);
             }
         });
-        add(btnBloodBankInfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 700, 270, 40));
+        add(btnBloodBankInfo, new org.netbeans.lib.awtextra.AbsoluteConstraints(670, 700, 270, 30));
 
         BillTable.setFont(new java.awt.Font("Trebuchet MS", 1, 14)); // NOI18N
         BillTable.setModel(new javax.swing.table.DefaultTableModel(
@@ -198,40 +198,40 @@ public class BloodBankWorkAreaJPanel extends javax.swing.JPanel {
         add(jScrollPane2, new org.netbeans.lib.awtextra.AbsoluteConstraints(6, 456, 1270, 191));
 
         lblCommunity.setBackground(new java.awt.Color(255, 255, 255));
-        lblCommunity.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
+        lblCommunity.setFont(new java.awt.Font("Arial Black", 1, 16)); // NOI18N
         lblCommunity.setForeground(new java.awt.Color(255, 255, 255));
         lblCommunity.setText("Blood Request Status");
-        add(lblCommunity, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 140, -1, 30));
+        add(lblCommunity, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 330, -1, 30));
 
         BloodRequestStatusBox.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 BloodRequestStatusBoxActionPerformed(evt);
             }
         });
-        add(BloodRequestStatusBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(1100, 140, 162, 30));
+        add(BloodRequestStatusBox, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 330, 162, 30));
 
-        btnProcessRequest.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
-        btnProcessRequest.setForeground(new java.awt.Color(0, 153, 204));
+        btnProcessRequest.setFont(new java.awt.Font("Arial Black", 1, 16)); // NOI18N
+        btnProcessRequest.setForeground(new java.awt.Color(202, 97, 71));
         btnProcessRequest.setText("Process Request");
         btnProcessRequest.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnProcessRequestActionPerformed(evt);
             }
         });
-        add(btnProcessRequest, new org.netbeans.lib.awtextra.AbsoluteConstraints(1070, 200, 190, 40));
+        add(btnProcessRequest, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 330, 190, 30));
 
-        btnTreatedPatientList.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
-        btnTreatedPatientList.setForeground(new java.awt.Color(0, 153, 204));
+        btnTreatedPatientList.setFont(new java.awt.Font("Arial Black", 1, 16)); // NOI18N
+        btnTreatedPatientList.setForeground(new java.awt.Color(202, 97, 71));
         btnTreatedPatientList.setText("Show Treated Patient List");
         btnTreatedPatientList.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnTreatedPatientListActionPerformed(evt);
             }
         });
-        add(btnTreatedPatientList, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 700, 300, 40));
+        add(btnTreatedPatientList, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 700, 300, 30));
 
         jLabel2.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel2.setFont(new java.awt.Font("Georgia", 1, 36)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Arial Black", 1, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel2.setText("BLOOD BANK");
