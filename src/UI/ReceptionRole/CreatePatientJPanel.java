@@ -550,7 +550,7 @@ public class CreatePatientJPanel extends javax.swing.JPanel {
 
             ecoSystem.getUserAccountDirectory().createUser(txtUserName.getText(), txtPassword.getText(), null, new Patient_role());
             ecoSystem.getPatientDirectory().createPatient(patient);
-            SendMail.sendMail(patient.getpatient_EmailAddress(), "Hello "+patient.getpatient_FirstName()+", your account has been successfully created in Hospital EcoSystem Management!");
+            SendMail.sendMail(patient.getpatient_EmailAddress(), "Hello "+patient.getpatient_FirstName()+",<br/> Created record in Infirmary Management System! <br/> Thank you, <br/> Infirmary Management System.");
             for (Patient p : ecoSystem.getPatientDirectory().getPatientList()) {
                 if (p.getpatient_UserName().equals(txtUserName.getText())) {
                     ecoSystem.getPatientDirectory().AddBill(p, "Bed Charge", "Hospital", "Ammount");
