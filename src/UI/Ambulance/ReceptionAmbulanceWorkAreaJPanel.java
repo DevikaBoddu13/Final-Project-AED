@@ -138,15 +138,16 @@ public class ReceptionAmbulanceWorkAreaJPanel extends javax.swing.JPanel {
         add(txtPatientUserName, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 500, 250, 30));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 100, 1432, 10));
 
+        Route_JButton.setBackground(new java.awt.Color(0, 153, 153));
         Route_JButton.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         Route_JButton.setForeground(new java.awt.Color(202, 97, 73));
-        Route_JButton.setText("View Route");
+        Route_JButton.setBorder(null);
         Route_JButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Route_JButtonActionPerformed(evt);
             }
         });
-        add(Route_JButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(930, 630, 180, 40));
+        add(Route_JButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(1370, 980, 10, 10));
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/emergency_room.png"))); // NOI18N
         add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(630, 120, 110, 170));
