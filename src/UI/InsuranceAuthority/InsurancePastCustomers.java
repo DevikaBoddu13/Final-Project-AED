@@ -77,11 +77,11 @@ private void populatePatientTable1() {
         setBackground(new java.awt.Color(0, 102, 102));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Arial Black", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Insurer");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(170, 50, 800, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 50, 530, 40));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 126, 1400, 10));
 
         patientTable.getTableHeader().setFont(new java.awt.Font("Trebuchet MS", 1, 16));
@@ -121,25 +121,27 @@ private void populatePatientTable1() {
 
         add(jScrollPane4, new org.netbeans.lib.awtextra.AbsoluteConstraints(280, 180, 990, 200));
 
-        viewDtlsBtn.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
-        viewDtlsBtn.setForeground(new java.awt.Color(0, 153, 204));
+        viewDtlsBtn.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
+        viewDtlsBtn.setForeground(new java.awt.Color(202, 97, 71));
         viewDtlsBtn.setText("View Details");
         viewDtlsBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 viewDtlsBtnActionPerformed(evt);
             }
         });
-        add(viewDtlsBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 180, 220, 80));
+        add(viewDtlsBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(1060, 470, 210, 50));
 
+        backBtn.setBackground(new java.awt.Color(0, 102, 102));
         backBtn.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
-        backBtn.setForeground(new java.awt.Color(0, 153, 204));
-        backBtn.setText("Back");
+        backBtn.setForeground(new java.awt.Color(0, 102, 102));
+        backBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/back.png"))); // NOI18N
+        backBtn.setBorder(null);
         backBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 300, 220, 80));
+        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 80, 60));
     }// </editor-fold>//GEN-END:initComponents
 
     private void viewDtlsBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_viewDtlsBtnActionPerformed
