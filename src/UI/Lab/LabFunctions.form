@@ -186,9 +186,6 @@
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="47" green="61" red="ca" type="rgb"/>
         </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/MainUserInterface/Images/icons8-add-40.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Add Test"/>
       </Properties>
       <Events>
@@ -207,9 +204,6 @@
         </Property>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="47" green="61" red="ca" type="rgb"/>
-        </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/MainUserInterface/Images/icons8-remove-40.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Delete"/>
       </Properties>
@@ -230,9 +224,6 @@
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="47" green="61" red="ca" type="rgb"/>
         </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/MainUserInterface/Images/icons8-update-40.png"/>
-        </Property>
         <Property name="text" type="java.lang.String" value="Update"/>
       </Properties>
       <Events>
@@ -251,9 +242,6 @@
         </Property>
         <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="47" green="61" red="ca" type="rgb"/>
-        </Property>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/MainUserInterface/Images/icons8-save-40.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="Save Update"/>
       </Properties>

@@ -81,7 +81,6 @@ public class PersonInfo extends javax.swing.JPanel {
         lblPatientPhone1 = new javax.swing.JLabel();
         lblPatientHealthInsuranceID1 = new javax.swing.JLabel();
         txtInsuranceStatus = new javax.swing.JTextField();
-        jLabel2 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(51, 51, 51));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -225,7 +224,6 @@ public class PersonInfo extends javax.swing.JPanel {
             }
         });
         add(txtInsuranceStatus, new org.netbeans.lib.awtextra.AbsoluteConstraints(230, 250, 165, 30));
-        add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(620, 40, -1, -1));
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtAddressActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtAddressActionPerformed
@@ -275,7 +273,6 @@ public class PersonInfo extends javax.swing.JPanel {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JSeparator jSeparator1;
     private javax.swing.JLabel lblPatientAddress;
     private javax.swing.JLabel lblPatientAge;
