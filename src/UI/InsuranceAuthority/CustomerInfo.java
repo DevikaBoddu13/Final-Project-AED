@@ -121,11 +121,11 @@ public class CustomerInfo extends javax.swing.JPanel {
         setBackground(new java.awt.Color(0, 102, 102));
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel1.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Arial Black", 1, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Customer Information");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 20, 540, -1));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(490, 20, 520, 50));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 80, 1392, 10));
 
         table1.getTableHeader().setFont(new java.awt.Font("Trebuchet MS", 1, 16));
@@ -161,11 +161,11 @@ public class CustomerInfo extends javax.swing.JPanel {
         add(jScrollPane1, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 150, 680, 460));
 
         lblpPhone.setBackground(new java.awt.Color(255, 255, 255));
-        lblpPhone.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
+        lblpPhone.setFont(new java.awt.Font("Arial Black", 1, 16)); // NOI18N
         lblpPhone.setForeground(new java.awt.Color(255, 255, 255));
         lblpPhone.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         lblpPhone.setText("Phone Number");
-        add(lblpPhone, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 570, -1, 30));
+        add(lblpPhone, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 550, 130, 30));
 
         txtpAddress.setEditable(false);
         txtpAddress.addActionListener(new java.awt.event.ActionListener() {
@@ -173,14 +173,14 @@ public class CustomerInfo extends javax.swing.JPanel {
                 txtpAddressActionPerformed(evt);
             }
         });
-        add(txtpAddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 330, 150, 40));
+        add(txtpAddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 340, 160, 30));
 
         lblpAddress.setBackground(new java.awt.Color(255, 255, 255));
-        lblpAddress.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
+        lblpAddress.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         lblpAddress.setForeground(new java.awt.Color(255, 255, 255));
         lblpAddress.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         lblpAddress.setText("Address");
-        add(lblpAddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 340, 76, 18));
+        add(lblpAddress, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 340, 90, 20));
 
         txtphInsuranceID.setEditable(false);
         txtphInsuranceID.addActionListener(new java.awt.event.ActionListener() {
@@ -188,23 +188,23 @@ public class CustomerInfo extends javax.swing.JPanel {
                 txtphInsuranceIDActionPerformed(evt);
             }
         });
-        add(txtphInsuranceID, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 270, 150, 40));
+        add(txtphInsuranceID, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 280, 160, 30));
 
         lblpHealthInsuranceID.setBackground(new java.awt.Color(255, 255, 255));
-        lblpHealthInsuranceID.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
+        lblpHealthInsuranceID.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         lblpHealthInsuranceID.setForeground(new java.awt.Color(255, 255, 255));
         lblpHealthInsuranceID.setText("Insurance Id");
-        add(lblpHealthInsuranceID, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 280, 106, -1));
+        add(lblpHealthInsuranceID, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 280, 130, -1));
 
         txtpGender.setEditable(false);
-        add(txtpGender, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 510, 150, 40));
+        add(txtpGender, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 500, 160, 30));
 
         lblpGender.setBackground(new java.awt.Color(255, 255, 255));
-        lblpGender.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
+        lblpGender.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         lblpGender.setForeground(new java.awt.Color(255, 255, 255));
         lblpGender.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         lblpGender.setText("Gender");
-        add(lblpGender, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 520, 98, 30));
+        add(lblpGender, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 500, 98, 30));
 
         txtpNumber.setEditable(false);
         txtpNumber.addActionListener(new java.awt.event.ActionListener() {
@@ -212,17 +212,17 @@ public class CustomerInfo extends javax.swing.JPanel {
                 txtpNumberActionPerformed(evt);
             }
         });
-        add(txtpNumber, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 570, 150, 40));
+        add(txtpNumber, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 560, 160, 30));
 
         txtpFirstName.setEditable(false);
-        add(txtpFirstName, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 156, 150, 40));
+        add(txtpFirstName, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 170, 160, 30));
 
         lblpFirstName.setBackground(new java.awt.Color(255, 255, 255));
-        lblpFirstName.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
+        lblpFirstName.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         lblpFirstName.setForeground(new java.awt.Color(255, 255, 255));
         lblpFirstName.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         lblpFirstName.setText("First Name");
-        add(lblpFirstName, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 170, 116, -1));
+        add(lblpFirstName, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 170, 116, -1));
 
         txtpAge.setEditable(false);
         txtpAge.addActionListener(new java.awt.event.ActionListener() {
@@ -230,14 +230,14 @@ public class CustomerInfo extends javax.swing.JPanel {
                 txtpAgeActionPerformed(evt);
             }
         });
-        add(txtpAge, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 390, 150, 40));
+        add(txtpAge, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 390, 160, 30));
 
         lblpAge.setBackground(new java.awt.Color(255, 255, 255));
-        lblpAge.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
+        lblpAge.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         lblpAge.setForeground(new java.awt.Color(255, 255, 255));
         lblpAge.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         lblpAge.setText("Age");
-        add(lblpAge, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 400, 50, -1));
+        add(lblpAge, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 390, 50, -1));
 
         txtpLastName.setEditable(false);
         txtpLastName.addActionListener(new java.awt.event.ActionListener() {
@@ -245,14 +245,14 @@ public class CustomerInfo extends javax.swing.JPanel {
                 txtpLastNameActionPerformed(evt);
             }
         });
-        add(txtpLastName, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 216, 150, 40));
+        add(txtpLastName, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 220, 160, 30));
 
         lblpLastName.setBackground(new java.awt.Color(255, 255, 255));
-        lblpLastName.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
+        lblpLastName.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         lblpLastName.setForeground(new java.awt.Color(255, 255, 255));
         lblpLastName.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         lblpLastName.setText("Last Name");
-        add(lblpLastName, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 230, 116, -1));
+        add(lblpLastName, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 220, 116, -1));
 
         jLabel2.setFont(new java.awt.Font("Georgia", 1, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(51, 204, 0));
@@ -264,8 +264,9 @@ public class CustomerInfo extends javax.swing.JPanel {
         jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(716, 284, 304, 33));
 
-        aprvBtn.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
-        aprvBtn.setForeground(new java.awt.Color(0, 255, 0));
+        aprvBtn.setBackground(new java.awt.Color(0, 204, 102));
+        aprvBtn.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
+        aprvBtn.setForeground(new java.awt.Color(255, 255, 255));
         aprvBtn.setText("Approve");
         aprvBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -274,8 +275,9 @@ public class CustomerInfo extends javax.swing.JPanel {
         });
         add(aprvBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(430, 630, 210, 70));
 
-        rjctBtn.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
-        rjctBtn.setForeground(new java.awt.Color(255, 0, 51));
+        rjctBtn.setBackground(new java.awt.Color(255, 0, 0));
+        rjctBtn.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
+        rjctBtn.setForeground(new java.awt.Color(255, 255, 255));
         rjctBtn.setText("Reject");
         rjctBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -284,8 +286,9 @@ public class CustomerInfo extends javax.swing.JPanel {
         });
         add(rjctBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(900, 630, 210, 70));
 
-        verificationBtn.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
-        verificationBtn.setForeground(new java.awt.Color(0, 51, 153));
+        verificationBtn.setBackground(new java.awt.Color(62, 62, 121));
+        verificationBtn.setFont(new java.awt.Font("Arial Black", 1, 16)); // NOI18N
+        verificationBtn.setForeground(new java.awt.Color(255, 255, 255));
         verificationBtn.setText("Send for Verification");
         verificationBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -300,13 +303,13 @@ public class CustomerInfo extends javax.swing.JPanel {
                 txtpVerificationActionPerformed(evt);
             }
         });
-        add(txtpVerification, new org.netbeans.lib.awtextra.AbsoluteConstraints(180, 450, 150, 40));
+        add(txtpVerification, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 450, 160, 30));
 
         lblpVerification.setBackground(new java.awt.Color(255, 255, 255));
-        lblpVerification.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
+        lblpVerification.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         lblpVerification.setForeground(new java.awt.Color(255, 255, 255));
         lblpVerification.setText("Police Verification");
-        add(lblpVerification, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 460, 156, -1));
+        add(lblpVerification, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 450, 140, 20));
 
         backBtn.setBackground(new java.awt.Color(0, 102, 102));
         backBtn.setFont(new java.awt.Font("Microsoft Sans Serif", 1, 18)); // NOI18N
@@ -318,7 +321,7 @@ public class CustomerInfo extends javax.swing.JPanel {
                 backBtnActionPerformed(evt);
             }
         });
-        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 20, 70, 50));
+        add(backBtn, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 20, 70, 50));
 
         jLabel4.setFont(new java.awt.Font("Georgia", 1, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 51, 51));
