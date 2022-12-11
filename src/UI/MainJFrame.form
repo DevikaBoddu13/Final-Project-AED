@@ -192,7 +192,7 @@
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
                 <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/UI/Images/hospital_1295x950.jpg"/>
+                  <Image iconType="3" name="/UI/Images/hospitalMain.jpg"/>
                 </Property>
               </Properties>
               <Constraints>

@@ -157,7 +157,6 @@ public class LabFunctions extends javax.swing.JPanel {
 
         btnSubmit.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         btnSubmit.setForeground(new java.awt.Color(202, 97, 71));
-        btnSubmit.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-add-40.png"))); // NOI18N
         btnSubmit.setText("Add Test");
         btnSubmit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -168,7 +167,6 @@ public class LabFunctions extends javax.swing.JPanel {
 
         dBtn4.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         dBtn4.setForeground(new java.awt.Color(202, 97, 71));
-        dBtn4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-remove-40.png"))); // NOI18N
         dBtn4.setText("Delete");
         dBtn4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -179,7 +177,6 @@ public class LabFunctions extends javax.swing.JPanel {
 
         upBtn.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         upBtn.setForeground(new java.awt.Color(202, 97, 71));
-        upBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-update-40.png"))); // NOI18N
         upBtn.setText("Update");
         upBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -190,7 +187,6 @@ public class LabFunctions extends javax.swing.JPanel {
 
         conBtn.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         conBtn.setForeground(new java.awt.Color(202, 97, 71));
-        conBtn.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MainUserInterface/Images/icons8-save-40.png"))); // NOI18N
         conBtn.setText("Save Update");
         conBtn.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
