@@ -124,7 +124,7 @@ public class BloodBankWorkAreaJPanel extends javax.swing.JPanel {
                 {null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "User Name", "HealthId", "First", "Last", "Age", "Address", "Email", "Request Status", "Blood Quantity", "obj"
+                "User Name", "HealthId", "First", "Last", "Age", "Payment", "Email", "Request Status", "Blood Quantity", "obj"
             }
         ) {
             Class[] types = new Class [] {
