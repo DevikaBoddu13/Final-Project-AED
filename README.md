@@ -2,7 +2,7 @@
 This repo is for info 5100 final project fall 2022 semester
 
 
-## Enterprises | Organizations | Roles
+## Entities:
 
 ### Enterprises:
 
