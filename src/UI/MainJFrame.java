@@ -30,14 +30,14 @@ public class MainJFrame extends javax.swing.JFrame {
         initComponents();
         system = dB4OUtil.retrieveSystem();
         this.setSize(1680, 1050);
-        system.getUserAccountDirectory().createUser("bloodbk", "bloodbk", null, new BloodBank());
-        system.getUserAccountDirectory().createUser("dispen", "dispen", null, new Pharmacist());
+        system.getUserAccountDirectory().createUser("bloodbank", "bloodbank", null, new BloodBank());
+        system.getUserAccountDirectory().createUser("dispensary", "dispensary", null, new Pharmacist());
         system.getUserAccountDirectory().createUser("insurance", "insurance", null, new InsuranceManager());
-        system.getUserAccountDirectory().createUser("ambul", "ambul", null, new AmbulanceDriver());
-        system.getUserAccountDirectory().createUser("lab", "laborat", null, new Lab());
-        system.getUserAccountDirectory().createUser("infirm", "infirm", null, new Reception());
+        system.getUserAccountDirectory().createUser("ambulance", "ambulance", null, new AmbulanceDriver());
+        system.getUserAccountDirectory().createUser("laboratory", "laboratory", null, new Lab());
+        system.getUserAccountDirectory().createUser("infirmary", "infirmary", null, new Reception());
         system.getUserAccountDirectory().createUser("police", "police", null, new Police());
-        system.getUserAccountDirectory().createUser("doctor", "doctor", null, new DoctorsAdministrator());
+        system.getUserAccountDirectory().createUser("doctoradmin", "doctoradmin", null, new DoctorsAdministrator());
     }
 
     @SuppressWarnings("unchecked")
