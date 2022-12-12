@@ -195,7 +195,7 @@ public class DoctorRequestMedicineJPanel extends javax.swing.JPanel {
                 btnRemoveMedicineActionPerformed(evt);
             }
         });
-        add(btnRemoveMedicine, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 340, 250, -1));
+        add(btnRemoveMedicine, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 360, 250, 30));
 
         btnAddMedicine1.setFont(new java.awt.Font("Arial Black", 1, 12)); // NOI18N
         btnAddMedicine1.setForeground(new java.awt.Color(40, 157, 144));
@@ -205,7 +205,7 @@ public class DoctorRequestMedicineJPanel extends javax.swing.JPanel {
                 btnAddMedicine1ActionPerformed(evt);
             }
         });
-        add(btnAddMedicine1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 340, 260, 30));
+        add(btnAddMedicine1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 360, 260, 30));
 
         Request.setFont(new java.awt.Font("Arial Black", 1, 16)); // NOI18N
         Request.setForeground(new java.awt.Color(202, 97, 71));
@@ -215,7 +215,7 @@ public class DoctorRequestMedicineJPanel extends javax.swing.JPanel {
                 RequestActionPerformed(evt);
             }
         });
-        add(Request, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 340, 420, 30));
+        add(Request, new org.netbeans.lib.awtextra.AbsoluteConstraints(500, 360, 220, 30));
 
         Request1.setBackground(new java.awt.Color(40, 157, 144));
         Request1.setFont(new java.awt.Font("Microsoft JhengHei", 1, 18)); // NOI18N

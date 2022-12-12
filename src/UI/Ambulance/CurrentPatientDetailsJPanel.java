@@ -104,7 +104,7 @@ public class CurrentPatientDetailsJPanel extends javax.swing.JPanel {
                 btnSetFreeActionPerformed(evt);
             }
         });
-        add(btnSetFree, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 420, 420, 30));
+        add(btnSetFree, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 440, 420, 30));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 107, 1432, 10));
 
         btnSetFree1.setBackground(new java.awt.Color(0, 153, 153));
