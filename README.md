@@ -10,6 +10,10 @@ This repo is for info 5100 final project fall 2022 semester
 
 ### Roles:
 
+# UML Diagram
+
+![Infirmary Management System UML](https://github.com/apoddaturi/Final-Project-AED/blob/main/UML.png)
+
 # Hierarchy Model
 
 ![Infirmary Management System](https://github.com/apoddaturi/Final-Project-AED/blob/main/hierarchy.png)
