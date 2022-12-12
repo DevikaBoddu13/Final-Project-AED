@@ -34,7 +34,7 @@ This repo is for info 5100 final project fall 2022 semester
 
 # UML Diagram
 
-![Infirmary Management System UML](https://github.com/apoddaturi/Final-Project-AED/blob/main/UML.png)
+![Infirmary Management System UML](https://github.com/apoddaturi/Final-Project-AED/blob/f858039a7f44d7568509c1b42acd3d241fa181e1/UML.updated.png)
 
 # Hierarchy Model
 
