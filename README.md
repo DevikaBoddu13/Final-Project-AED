@@ -39,9 +39,9 @@ Infirmary Management System is an organized application designed and programmed 
 7. Insurance Manager.
 8. Police Officer
 
-# UML Diagram
+# Object Model Diagram
 
-![Infirmary Management System UML](https://github.com/apoddaturi/Final-Project-AED/blob/f858039a7f44d7568509c1b42acd3d241fa181e1/UML.updated.png)
+![Object Model Diagram](https://github.com/apoddaturi/Final-Project-AED/blob/7d4f6bc09a6dd26c84cb30da9803ef6cc58f28b1/ObjectModel.png)
 
 # Hierarchy Model
 
