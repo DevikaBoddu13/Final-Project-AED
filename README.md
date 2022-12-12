@@ -13,6 +13,14 @@ This repo is for info 5100 final project fall 2022 semester
 
 ### Organizations:
 
+1. Dispensary Organization.
+2. Lab Organization.
+3. Ambulance Organization.
+4. Hospital Organization.
+5. Blood Bank Organization.
+6. Insurer Organization.
+7. Police Department Organization.
+
 ### Roles:
 
 # UML Diagram
