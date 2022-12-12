@@ -47,6 +47,10 @@ Infirmary Management System is an organized application designed and programmed 
 
 ![Infirmary Management System](https://github.com/apoddaturi/Final-Project-AED/blob/main/hierarchy.png)
 
+# UML Diagram
+
+![UML](https://github.com/apoddaturi/Final-Project-AED/blob/c04be62c11b7437c647472e74a7413a0dfc1b93e/finalUML.png)
+
 # Team Members:
 
 1.  Name: Kshama Aditi Lethakula </br>
