@@ -23,6 +23,15 @@ This repo is for info 5100 final project fall 2022 semester
 
 ### Roles:
 
+1. Doctor.
+2. Dispensary Administrator.
+3. Lab Manager.
+4. Ambulance Admin.
+5. Out Patient Deparment Admin.
+6. Blood Bank System Admin Role.
+7. Insurance Manager.
+8. Police Officer
+
 # UML Diagram
 
 ![Infirmary Management System UML](https://github.com/apoddaturi/Final-Project-AED/blob/main/UML.png)
