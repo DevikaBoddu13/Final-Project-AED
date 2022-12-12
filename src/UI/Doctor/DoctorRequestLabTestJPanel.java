@@ -196,7 +196,7 @@ public class DoctorRequestLabTestJPanel extends javax.swing.JPanel {
                 btnAddTestActionPerformed(evt);
             }
         });
-        add(btnAddTest, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 380, 200, 30));
+        add(btnAddTest, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 400, 200, 30));
 
         btnRemoveTest.setFont(new java.awt.Font("Arial Black", 1, 12)); // NOI18N
         btnRemoveTest.setForeground(new java.awt.Color(40, 157, 144));
@@ -206,7 +206,7 @@ public class DoctorRequestLabTestJPanel extends javax.swing.JPanel {
                 btnRemoveTestActionPerformed(evt);
             }
         });
-        add(btnRemoveTest, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 380, 240, 30));
+        add(btnRemoveTest, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 400, 240, 30));
 
         Request.setFont(new java.awt.Font("Arial Black", 1, 14)); // NOI18N
         Request.setForeground(new java.awt.Color(202, 97, 71));
@@ -216,7 +216,7 @@ public class DoctorRequestLabTestJPanel extends javax.swing.JPanel {
                 RequestActionPerformed(evt);
             }
         });
-        add(Request, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 380, 420, 40));
+        add(Request, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 400, 250, 30));
 
         Request1.setBackground(new java.awt.Color(40, 157, 144));
         Request1.setFont(new java.awt.Font("Microsoft JhengHei", 1, 14)); // NOI18N

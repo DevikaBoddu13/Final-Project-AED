@@ -172,7 +172,7 @@ public class DoctorWorkAreaJPanel extends javax.swing.JPanel {
                 btnVisitPatientActionPerformed(evt);
             }
         });
-        add(btnVisitPatient, new org.netbeans.lib.awtextra.AbsoluteConstraints(920, 360, 120, 30));
+        add(btnVisitPatient, new org.netbeans.lib.awtextra.AbsoluteConstraints(780, 350, 120, 30));
         add(jSeparator1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 63, 1404, 10));
 
         PatientTable1.setFont(new java.awt.Font("Georgia", 1, 14)); // NOI18N

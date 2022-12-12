@@ -137,6 +137,7 @@ public class BloodBankInfoJPanel extends javax.swing.JPanel {
         btnBack.setFont(new java.awt.Font("Arial Black", 1, 16)); // NOI18N
         btnBack.setForeground(new java.awt.Color(0, 153, 204));
         btnBack.setIcon(new javax.swing.ImageIcon(getClass().getResource("/UI/Images/back.png"))); // NOI18N
+        btnBack.setBorder(null);
         btnBack.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnBackActionPerformed(evt);
