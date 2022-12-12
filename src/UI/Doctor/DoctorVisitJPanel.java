@@ -115,7 +115,7 @@ public class DoctorVisitJPanel extends javax.swing.JPanel {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setText("Patients Record");
-        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 30, 260, 50));
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(570, 40, 260, 50));
 
         btnRequestLabTests.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         btnRequestLabTests.setForeground(new java.awt.Color(40, 157, 144));
@@ -155,7 +155,7 @@ public class DoctorVisitJPanel extends javax.swing.JPanel {
                 btnRequestMedicine1ActionPerformed(evt);
             }
         });
-        add(btnRequestMedicine1, new org.netbeans.lib.awtextra.AbsoluteConstraints(590, 570, 340, 40));
+        add(btnRequestMedicine1, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 470, 340, 40));
 
         btnRequestMedicine2.setFont(new java.awt.Font("Arial Black", 1, 18)); // NOI18N
         btnRequestMedicine2.setForeground(new java.awt.Color(202, 97, 71));
@@ -165,7 +165,7 @@ public class DoctorVisitJPanel extends javax.swing.JPanel {
                 btnRequestMedicine2ActionPerformed(evt);
             }
         });
-        add(btnRequestMedicine2, new org.netbeans.lib.awtextra.AbsoluteConstraints(940, 570, 190, 40));
+        add(btnRequestMedicine2, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 470, 190, 40));
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnRequestLabTestsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRequestLabTestsActionPerformed
